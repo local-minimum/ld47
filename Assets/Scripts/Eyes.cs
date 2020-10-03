@@ -25,7 +25,7 @@ public class Eyes : MonoBehaviour
             Interactable inter = hit.collider.gameObject.GetComponent<Interactable>();
             if (inter != null)
             {
-                inter.LookedAt(hit.distance);
+                inter.LookedAt(hit.distance, transform.forward);
             }
         }        
     }

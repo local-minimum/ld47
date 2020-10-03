@@ -20,7 +20,9 @@ public class UIInteractable : MonoBehaviour
     {
         _instance.transform.SetParent(target);
         _instance.transform.localPosition = Vector3.zero;
+        _instance.transform.localRotation = Quaternion.identity;
         _instance.canvas.enabled = true;
+        
     }
 
     public static bool canInteract {
