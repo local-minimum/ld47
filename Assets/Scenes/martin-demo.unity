@@ -368,10 +368,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8567859736519407447, guid: 2186f391ca452b0418b18827e8466922, type: 3}
-      propertyPath: turn90Duration
-      value: 1.5
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2186f391ca452b0418b18827e8466922, type: 3}
 --- !u!1 &942382353
@@ -386,6 +382,7 @@ GameObject:
   - component: {fileID: 942382356}
   - component: {fileID: 942382355}
   - component: {fileID: 942382354}
+  - component: {fileID: 942382358}
   m_Layer: 0
   m_Name: Door
   m_TagString: Untagged
@@ -470,6 +467,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &942382358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 942382353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 984cfaacb8ec71541b9ec4acba14838a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actionDistance: 1
+  uiAnchor: {fileID: 156761026}
+  uiLingerTime: 0.5
 --- !u!1 &1199634261
 GameObject:
   m_ObjectHideFlags: 0
