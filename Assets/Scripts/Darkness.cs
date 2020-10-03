@@ -12,5 +12,7 @@ public class Darkness : MonoBehaviour
     {
         Light light = GetComponent<Light>();
         light.intensity = intensity;
+        light.transform.rotation = Quaternion.identity;
+        light.transform.Rotate(new Vector3(90, 0, 0));
     }
 }
