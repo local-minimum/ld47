@@ -120,7 +120,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8567859736519407433}
-  m_LocalRotation: {x: -0.00000017374987, y: -0.16249314, z: -0.00000010547228, w: 0.9867098}
+  m_LocalRotation: {x: 0, y: -0.16249079, z: 0, w: 0.9867101}
   m_LocalPosition: {x: -7.798582, y: 1, z: -4.7506557}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -129,7 +129,7 @@ Transform:
   - {fileID: 8567859737440534376}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -18.703, z: 0}
 --- !u!33 &8567859736519407434
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -257,7 +257,7 @@ MonoBehaviour:
   stepLength: 0.8
   stepDuration: 1.5
   eyeCamera: {fileID: 8567859737503507338}
-  turn90Duration: 2.5
+  turn90Duration: 1.5
 --- !u!1 &8567859737440534377
 GameObject:
   m_ObjectHideFlags: 0
@@ -405,6 +405,7 @@ GameObject:
   - component: {fileID: 8567859737503507349}
   - component: {fileID: 8567859737503507338}
   - component: {fileID: 8567859737503507339}
+  - component: {fileID: 542105104}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -477,6 +478,18 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8567859737503507336}
   m_Enabled: 1
+--- !u!114 &542105104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8567859737503507336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90a86215d8bd52b4c9c4c8ed2bae5b94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8567859737517876917
 GameObject:
   m_ObjectHideFlags: 0
