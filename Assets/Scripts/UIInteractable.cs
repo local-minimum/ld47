@@ -30,6 +30,14 @@ public class UIInteractable : MonoBehaviour
         }
     }
 
+    public bool showingKey {
+        get
+        {
+            return keyHint.IsActive();
+        }
+    }
+
+
     public static void Hide()
     {
         _instance.canvas.enabled = false;
