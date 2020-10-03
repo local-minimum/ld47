@@ -339,6 +339,7 @@ MonoBehaviour:
   stepDuration: 1.5
   eyeCamera: {fileID: 8567859737503507338}
   turn90Duration: 1.5
+  phone: {fileID: 8567859737440534376}
 --- !u!1 &8567859737440534377
 GameObject:
   m_ObjectHideFlags: 0
@@ -575,7 +576,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90a86215d8bd52b4c9c4c8ed2bae5b94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  detectionRange: 10
+  detectionRange: 7
 --- !u!1 &8567859737517876917
 GameObject:
   m_ObjectHideFlags: 0
