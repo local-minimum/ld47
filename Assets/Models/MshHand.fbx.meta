@@ -9,6 +9,9 @@ ModelImporter:
   - first:
       74: 6160269246918879156
     second: handPhoneHold
+  - first:
+      74: 3547140178350304496
+    second: handPhoneHolding
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -43,8 +46,8 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: handPhoneHold
-      takeName: handPhoneHold
+      name: handPhoneHolding
+      takeName: handPhoneHolding
       internalID: 0
       firstFrame: 0
       lastFrame: 1
@@ -126,7 +129,7 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     globalScale: 1
-    rootMotionBoneName: 
+    rootMotionBoneName: ArmHand
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
