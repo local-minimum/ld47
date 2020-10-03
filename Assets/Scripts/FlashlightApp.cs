@@ -17,6 +17,15 @@ public class FlashlightApp : MonoBehaviour
     [SerializeField, Range(0, 2)]
     float transitionDuration = 1f;
 
+    [SerializeField]
+    Material lightOn;
+
+    [SerializeField]
+    Material lightOff;
+
+    [SerializeField]
+    Renderer phoneScreen;
+
     bool transitioning = false;
 
     private void Start()
@@ -37,6 +46,7 @@ public class FlashlightApp : MonoBehaviour
         transitioning = true;
         float startTrans = isOn ? 1f : 0f;
         float factor = isOn ? -1 / transitionDuration : 1 / transitionDuration;
+        phoneScreen.material = isOn ? lightOff : lightOn;
         float startTime = Time.timeSinceLevelLoad;
         float duration = 0;
         while (duration < transitionDuration) {
