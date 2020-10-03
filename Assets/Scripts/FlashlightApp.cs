@@ -45,7 +45,9 @@ public class FlashlightApp : MonoBehaviour
             yield return new WaitForSeconds(0.02f);
             duration = Time.timeSinceLevelLoad - startTime;
         }        
-        transitioning = false;
+        
         isOn = !isOn;
+        spotLight.intensity = isOn ? 1f : 0f;
+        transitioning = false;
     }
 }
