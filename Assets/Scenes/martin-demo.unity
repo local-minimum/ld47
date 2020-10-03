@@ -449,6 +449,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1818883603035624796, guid: 2186f391ca452b0418b18827e8466922, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.2014216e-10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1818883603035624796, guid: 2186f391ca452b0418b18827e8466922, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.009638192
+      objectReference: {fileID: 0}
+    - target: {fileID: 1818883603035624796, guid: 2186f391ca452b0418b18827e8466922, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 8.1490814e-10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7493233287968101734, guid: 2186f391ca452b0418b18827e8466922, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.2386884e-10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7493233287968101734, guid: 2186f391ca452b0418b18827e8466922, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0073191943
+      objectReference: {fileID: 0}
     - target: {fileID: 8567859736519407433, guid: 2186f391ca452b0418b18827e8466922, type: 3}
       propertyPath: m_Name
       value: Player
@@ -521,6 +541,7 @@ GameObject:
   - component: {fileID: 942382356}
   - component: {fileID: 942382355}
   - component: {fileID: 942382354}
+  - component: {fileID: 942382358}
   m_Layer: 0
   m_Name: Door
   m_TagString: Untagged
@@ -605,6 +626,21 @@ Transform:
   m_Father: {fileID: 1102854837}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &942382358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 942382353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 984cfaacb8ec71541b9ec4acba14838a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actionDistance: 3
+  uiAnchor: {fileID: 156761026}
+  uiLingerTime: 0.5
 --- !u!1 &1102854834
 GameObject:
   m_ObjectHideFlags: 0
@@ -614,7 +650,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1102854837}
-  - component: {fileID: 1102854836}
   - component: {fileID: 1102854835}
   m_Layer: 0
   m_Name: Door rotation point
@@ -637,22 +672,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   yRotationClosed: 0
   yRotationOpened: -80
-  animationDuration: 0
---- !u!114 &1102854836
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1102854834}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 984cfaacb8ec71541b9ec4acba14838a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  actionDistance: 3
-  uiAnchor: {fileID: 156761026}
-  uiLingerTime: 0.5
+  animationDuration: 1
 --- !u!4 &1102854837
 Transform:
   m_ObjectHideFlags: 0
@@ -661,7 +681,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1102854834}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.981846, y: 0, z: 6.258879}
+  m_LocalPosition: {x: -8.6, y: 0, z: -2.72}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 942382357}
@@ -1274,7 +1294,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7251191463948698982, guid: 840b59ab11222fe4faf9de5ceadab092, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6.329
+      value: 5.969
       objectReference: {fileID: 0}
     - target: {fileID: 7251191463948698982, guid: 840b59ab11222fe4faf9de5ceadab092, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1310,7 +1330,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7251191463948698982, guid: 840b59ab11222fe4faf9de5ceadab092, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -6.931001
+      value: -7.046
       objectReference: {fileID: 0}
     - target: {fileID: 7251191463948698982, guid: 840b59ab11222fe4faf9de5ceadab092, type: 3}
       propertyPath: m_AnchoredPosition.y

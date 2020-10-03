@@ -8,6 +8,8 @@ public class Door : MonoBehaviour
     float yRotationClosed;
     [SerializeField]
     float yRotationOpened;
+    float currentRotation;
+    float currentDuration;
 
     [SerializeField, Range(0, 2)]
     float animationDuration;
@@ -22,20 +24,30 @@ public class Door : MonoBehaviour
     }
 
     IEnumerator<WaitForSeconds> DoToggle(int iteration) {
-        float start = Time.timeSinceLevelLoad;
-        float duration = 0;
-        float startAngle = isOpen ? yRotationOpened : yRotationClosed;
-        float endAngle = isOpen ? yRotationClosed : yRotationOpened;
-        while (toggleIteraion == iteration && duration < animationDuration)
-        {            
-            transform.rotation = Quaternion.AngleAxis(Mathf.LerpAngle(startAngle, endAngle, duration / animationDuration), Vector3.up);
+        
+        float startAngle = isOpen ? yRotationClosed : currentRotation;
+        float timeDirection = isOpen ? -1 : 1;
+        float endAngle = isOpen ? currentRotation : yRotationOpened;
+        Debug.Log(string.Format("{0} -> {1}, t: {2} / {3}", startAngle, endAngle, currentDuration, timeDirection));
+        isOpen = !isOpen;
+        while (toggleIteraion == iteration && currentDuration >= 0 && currentDuration <= animationDuration)
+        {
+            currentRotation = Mathf.LerpAngle(startAngle, endAngle, currentDuration / animationDuration);
+            transform.rotation = Quaternion.AngleAxis(currentRotation, Vector3.up);
             yield return new WaitForSeconds(0.02f);
-            duration = Time.timeSinceLevelLoad - start;
+            currentDuration += 0.02f * timeDirection;
         }
         if (toggleIteraion == iteration)
         {
-            transform.rotation = Quaternion.AngleAxis(endAngle, Vector3.up);
+            currentDuration = Mathf.Clamp01(currentDuration);
+            currentRotation = Mathf.LerpAngle(startAngle, endAngle, currentDuration / animationDuration);
+            transform.rotation = Quaternion.AngleAxis(currentRotation, Vector3.up);            
         }        
+    }
+
+    private void Start()
+    {
+        currentRotation = yRotationClosed;
     }
 
     private void Update()

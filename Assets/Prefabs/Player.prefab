@@ -159,6 +159,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8567859736307968385}
   - component: {fileID: 8567859736307968384}
+  - component: {fileID: 2775967382196040317}
   m_Layer: 8
   m_Name: Spot Light
   m_TagString: Untagged
@@ -174,7 +175,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8567859736307968390}
   m_LocalRotation: {x: 0.0417165, y: 0.03631579, z: -0.0049789753, w: 0.9984569}
-  m_LocalPosition: {x: 0, y: 0.311, z: 2.5999892}
+  m_LocalPosition: {x: -0.056, y: 0.311, z: 0.12}
   m_LocalScale: {x: 4, y: 20, z: 2.4999998}
   m_Children: []
   m_Father: {fileID: 2376695164750278154}
@@ -241,6 +242,19 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!65 &2775967382196040317
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8567859736307968390}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.25, y: 0.08, z: 0.2}
+  m_Center: {x: 0, y: -0.04, z: -0.08}
 --- !u!1 &8567859736519407433
 GameObject:
   m_ObjectHideFlags: 0
@@ -694,11 +708,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -6955414164365341537, guid: 9b164e125dc14b94eb5364010316294f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.0000000028521747
+      value: 5.2386884e-10
       objectReference: {fileID: 0}
     - target: {fileID: -6955414164365341537, guid: 9b164e125dc14b94eb5364010316294f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.0073191924
+      value: 0.0073191943
       objectReference: {fileID: 0}
     - target: {fileID: -6955414164365341537, guid: 9b164e125dc14b94eb5364010316294f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -726,11 +740,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7041889643587472549, guid: 9b164e125dc14b94eb5364010316294f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.3283067e-10
+      value: 3.2014216e-10
       objectReference: {fileID: 0}
     - target: {fileID: 7041889643587472549, guid: 9b164e125dc14b94eb5364010316294f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.1641545e-10
+      value: 8.1490814e-10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7041889643587472549, guid: 9b164e125dc14b94eb5364010316294f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.009638192
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9b164e125dc14b94eb5364010316294f, type: 3}

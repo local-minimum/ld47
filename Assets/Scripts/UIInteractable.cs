@@ -65,6 +65,6 @@ public class UIInteractable : MonoBehaviour
 
     private void Update()
     {
-        interactHint.rectTransform.Rotate(interactHint.rectTransform.forward, rotationSpeed * Time.deltaTime);
+        interactHint.rectTransform.Rotate(interactHint.rectTransform.forward, rotationSpeed * Time.deltaTime, Space.World);
     }
 }
