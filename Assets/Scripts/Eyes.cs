@@ -24,6 +24,11 @@ public class Eyes : MonoBehaviour
             {
                 inter.LookedAt(hit.distance);
             }
-        }
+        }        
+    }
+
+    public void LookAt(Vector3 pos)
+    {
+        transform.LookAt(pos);
     }
 }
