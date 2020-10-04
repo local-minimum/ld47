@@ -4,9 +4,8 @@ using UnityEngine;
 using UnityEngine.AI;
 
 public class Monster : MonoBehaviour
-{
-    [SerializeField]
-    Transform player;
+{    
+    PlayerWalking player;
 
     Transform target;
 
@@ -89,6 +88,7 @@ public class Monster : MonoBehaviour
     private void Start()
     {
         anim = GetComponentInChildren<Animator>();
+        player = FindObjectOfType<PlayerWalking>();
     }
 
     private void Update()

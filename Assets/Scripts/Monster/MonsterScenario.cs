@@ -6,7 +6,6 @@ public class MonsterScenario : MonoBehaviour
 {
     static string CurrentScenario { get; set; }
 
-    [SerializeField]
     Monster monster;
 
     [SerializeField]
@@ -20,6 +19,11 @@ public class MonsterScenario : MonoBehaviour
 
     [SerializeField, Range(0, 4)]
     float huntSpeed = 3f;
+
+    private void Start()
+    {
+        monster = FindObjectOfType<Monster>();
+    }
 
     private void OnTriggerEnter(Collider other)
     {
