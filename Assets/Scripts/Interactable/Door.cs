@@ -14,7 +14,7 @@ public class Door : MonoBehaviour
     [SerializeField, Range(0, 2)]
     float animationDuration;
 
-    bool isOpen = false;
+    public bool isOpen { get; private set; }
     int toggleIteraion = 0;
 
     public void Toggle()
@@ -44,6 +44,7 @@ public class Door : MonoBehaviour
             transform.rotation = Quaternion.AngleAxis(currentRotation, Vector3.up);            
         }        
     }
+
 
     private void Start()
     {
