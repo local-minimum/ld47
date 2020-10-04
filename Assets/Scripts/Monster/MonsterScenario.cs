@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class MonsterScenario : MonoBehaviour
 {
+    static string CurrentScenario { get; set; }
+
     [SerializeField]
     Monster monster;
 
@@ -21,7 +23,7 @@ public class MonsterScenario : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Player")
+        if (other.tag == "Player" && CurrentScenario != name)
         {
             monster.TeleportTo(monsterSpawn);
 
@@ -31,6 +33,7 @@ public class MonsterScenario : MonoBehaviour
             }
             monster.huntSpeed = huntSpeed;
             monster.patrolSpeed = patrolSpeed;
+            CurrentScenario = name;
         }
     }
 }
