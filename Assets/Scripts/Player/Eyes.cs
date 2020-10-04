@@ -21,7 +21,7 @@ public class Eyes : MonoBehaviour
     void Update()
     {
         RaycastHit hit;
-        if (Physics.Raycast(transform.position, transform.forward, out hit, 10f, interactableLayers)) {
+        if (Physics.Raycast(transform.position, transform.forward, out hit, detectionRange, interactableLayers)) {
             Interactable inter = hit.collider.gameObject.GetComponent<Interactable>();
             if (inter != null)
             {
