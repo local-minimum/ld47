@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class FlashlightApp : MonoBehaviour
 {
@@ -14,23 +15,26 @@ public class FlashlightApp : MonoBehaviour
 
     [SerializeField]
     AnimationCurve transitionIntensity;
+
     [SerializeField, Range(0, 2)]
     float transitionDuration = 1f;
+    
+    Image flashlightImage;
 
     [SerializeField]
-    Material lightOn;
+    Color lightOnTextColor;
 
     [SerializeField]
-    Material lightOff;
-
-    [SerializeField]
-    Renderer phoneScreen;
+    Color lightOffTextColor;
+    
+    TMPro.TextMeshProUGUI textElement;
 
     bool transitioning = false;
 
     private void Start()
     {
-        StartCoroutine(Transition());
+        flashlightImage = GetComponentInChildren<Image>();
+        textElement = GetComponentInChildren<TMPro.TextMeshProUGUI>();
     }
 
     void Update()
@@ -43,10 +47,11 @@ public class FlashlightApp : MonoBehaviour
 
     IEnumerator<WaitForSeconds> Transition()
     {
-        transitioning = true;
+        transitioning = true;        
         float startTrans = isOn ? 1f : 0f;
         float factor = isOn ? -1 / transitionDuration : 1 / transitionDuration;
-        phoneScreen.material = isOn ? lightOff : lightOn;
+        flashlightImage.color = isOn ? lightOffTextColor : lightOnTextColor;
+        textElement.color = isOn ? lightOffTextColor : lightOnTextColor;
         float startTime = Time.timeSinceLevelLoad;
         float duration = 0;
         while (duration < transitionDuration) {

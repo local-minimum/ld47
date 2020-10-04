@@ -469,7 +469,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 162344224}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Exit to Room
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1350,7 +1350,7 @@ GameObject:
   - component: {fileID: 680183242}
   - component: {fileID: 680183244}
   - component: {fileID: 680183243}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Monster Scenario Trigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1713,7 +1713,7 @@ GameObject:
   - component: {fileID: 879121932}
   - component: {fileID: 879121934}
   - component: {fileID: 879121933}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Server Room - Door Locker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2008,7 +2008,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 991820849}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Exit to Center
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3163,7 +3163,7 @@ GameObject:
   - component: {fileID: 1446531642}
   - component: {fileID: 1446531641}
   - component: {fileID: 1446531643}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Server Room Teleporter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3250,7 +3250,7 @@ GameObject:
   - component: {fileID: 1491658399}
   - component: {fileID: 1491658398}
   - component: {fileID: 1491658400}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: False Wall Trapper
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3454,7 +3454,7 @@ GameObject:
   - component: {fileID: 1561841059}
   - component: {fileID: 1561841061}
   - component: {fileID: 1561841060}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Server Room - Door Locker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3614,7 +3614,7 @@ GameObject:
   - component: {fileID: 1596446589}
   - component: {fileID: 1596446588}
   - component: {fileID: 1596446590}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: False Wall Charger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3711,7 +3711,7 @@ GameObject:
   - component: {fileID: 1605082538}
   - component: {fileID: 1605082540}
   - component: {fileID: 1605082539}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Server Room - Door Locker (doubling back)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3839,7 +3839,7 @@ GameObject:
   - component: {fileID: 1762390773}
   - component: {fileID: 1762390775}
   - component: {fileID: 1762390774}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Monster Patrol Checkpoint 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3897,7 +3897,7 @@ GameObject:
   - component: {fileID: 1804097599}
   - component: {fileID: 1804097601}
   - component: {fileID: 1804097600}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Monster Patrol Checkpoint 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4049,7 +4049,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1852083163}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Spawn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4063,13 +4063,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1852083162}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -6.45, y: 0, z: -14}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 680183242}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1865511588
 GameObject:
   m_ObjectHideFlags: 0
@@ -4570,7 +4570,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2094505920}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Exit to Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}

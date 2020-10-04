@@ -102,8 +102,11 @@ MonoBehaviour:
   player: {fileID: 0}
   rayLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 1
   huntForPlayer: 3
+  viewAngle: 45
+  angleStep: 5
+  sightDistance: 10
 --- !u!1 &3276140448495407306
 GameObject:
   m_ObjectHideFlags: 0
