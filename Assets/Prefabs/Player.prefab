@@ -191,47 +191,6 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!114 &5165202394564798695
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3148129408035091632}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a9a6609209d9bb1498073c980dcf9919, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  actionKey: 120
-  spotLight: {fileID: 8567859736307968384}
-  transitionIntensity:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 1
-      value: 1
-      inSlope: 2
-      outSlope: 2
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  transitionDuration: 1
-  lightOnTextColor: {r: 0, g: 0, b: 0, a: 0}
-  lightOffTextColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &3262643635927625961
 GameObject:
   m_ObjectHideFlags: 0
@@ -310,7 +269,7 @@ MonoBehaviour:
     m_RotationOrder: 4
   transitionDuration: 1
   lightOnTextColor: {r: 1, g: 1, b: 0, a: 1}
-  lightOffTextColor: {r: 0.9490197, g: 0.9490197, b: 0.9490197, a: 1}
+  lightOffTextColor: {r: 0.6603774, g: 0.6603774, b: 0.6603774, a: 1}
 --- !u!1 &5993477761695895826
 GameObject:
   m_ObjectHideFlags: 0
@@ -839,14 +798,14 @@ RectTransform:
   m_GameObject: {fileID: 8670792647852514870}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 1}
   m_Children: []
   m_Father: {fileID: 2316450627244051511}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 5.63, y: -10.93}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2664725443283868651
@@ -904,8 +863,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 8
-  m_fontSizeBase: 8
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1042,11 +1001,6 @@ PrefabInstance:
 --- !u!4 &2376695164750278154 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9466b12b1a607cd40972c5bb27c7ab4f, type: 3}
-  m_PrefabInstance: {fileID: 2842069150068197857}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &3148129408035091632 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 9466b12b1a607cd40972c5bb27c7ab4f, type: 3}
   m_PrefabInstance: {fileID: 2842069150068197857}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8684110315323922937
