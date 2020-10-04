@@ -6,11 +6,16 @@ public class MultiLocationRoom : MonoBehaviour
 {
     [SerializeField]
     Transform[] locations;
+    [SerializeField]
+    bool rotate;
 
     public void TeleportTo(int location)
     {
         Transform target = locations[location];
         transform.position = target.position;
-        transform.rotation = target.rotation;
+        if (rotate)
+        {
+            transform.rotation = target.rotation;
+        }
     }
 }

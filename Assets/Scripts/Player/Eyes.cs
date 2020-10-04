@@ -10,25 +10,34 @@ public class Eyes : MonoBehaviour
     [SerializeField]
     LayerMask interactableLayers;
 
-    Camera cam;
+    Vector3 lastLook;
 
-    void Start()
-    {
-        cam = GetComponent<Camera>();    
-    }
 
     // Update is called once per frame
     void Update()
     {
         RaycastHit hit;
         if (Physics.Raycast(transform.position, transform.forward, out hit, detectionRange, interactableLayers)) {
-            Interactable inter = hit.collider.gameObject.GetComponent<Interactable>();
+            lastLook = hit.point;
+            // Debug.Log(hit.collider.name);
+            Interactable inter = hit.collider.gameObject.GetComponentInChildren<Interactable>();
             if (inter != null)
             {
-                inter.LookedAt(hit.distance, transform.forward);
+                inter.LookedAt(transform.position, transform.forward);
             }
-        }        
+        } /*else
+        {
+            Debug.Log("Hit nothing");
+            lastLook = new Ray(transform.position, transform.forward).GetPoint(detectionRange);
+        } */
     }
+    /*
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.cyan;
+        Gizmos.DrawLine(transform.position, lastLook);
+        Debug.Log(Vector3.Distance(transform.position, lastLook));
+    }*/
 
     public void LookAt(Vector3 pos)
     {

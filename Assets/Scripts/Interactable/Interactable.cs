@@ -16,7 +16,9 @@ public class Interactable : MonoBehaviour
     float uiLingerTime = 0.2f;
 
     float lastLookedUpon = 0f;
-    
+
+    Transform bestAnchor;
+    //Vector3 looker;
 
     // Update is called once per frame
     void Update()
@@ -28,11 +30,16 @@ public class Interactable : MonoBehaviour
         }
     }
 
-    public void LookedAt(float distance, Vector3 rayDirection)
+    public void LookedAt(Vector3 lookerPos, Vector3 rayDirection)
     {
+        if (uiAnchor.Length == 0)
+        {
+            Debug.LogWarning(name);
+            return;
+        }
         if (focused != this)
         {
-            Transform bestAnchor = uiAnchor[0];
+            bestAnchor = uiAnchor[0];
             float bestAngle = 180;
             for (int i=0; i<uiAnchor.Length; i++)
             {
@@ -46,10 +53,22 @@ public class Interactable : MonoBehaviour
             UIInteractable.Place(bestAnchor);
             focused = this;
         }
-        UIInteractable.canInteract = distance <= actionDistance;
+        float dist = Vector3.Distance(lookerPos, bestAnchor.position);
+        //looker = lookerPos;        
+        UIInteractable.canInteract = dist <= actionDistance;
+
         lastLookedUpon = Time.timeSinceLevelLoad;
     }
-
+    /*
+    private void OnDrawGizmos()
+    {
+        if (bestAnchor != null && focused == this)
+        {
+            Gizmos.color = Color.red;
+            Gizmos.DrawLine(looker, bestAnchor.position);            
+        }
+    }
+    */
     private void OnDestroy()
     {
         if (focused == this) { focused = null; }
