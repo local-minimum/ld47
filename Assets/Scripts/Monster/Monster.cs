@@ -40,6 +40,9 @@ public class Monster : MonoBehaviour
     [SerializeField, Range(0, 20)]
     float sightDistance = 10f;
 
+    Animator anim;
+
+
     bool CanSeePlayer()
     {        
         for (float a=-viewAngle; a<=viewAngle; a+=angleStep)
@@ -83,6 +86,11 @@ public class Monster : MonoBehaviour
         Gizmos.color = gColor;
     }
 
+    private void Start()
+    {
+        anim = GetComponentInChildren<Animator>();
+    }
+
     private void Update()
     {
         NavMeshAgent agent = GetComponentInChildren<NavMeshAgent>();
@@ -102,5 +110,7 @@ public class Monster : MonoBehaviour
                 agent.speed = patrolSpeed;
             }
         }
+
+        anim.SetFloat("Speed", agent.speed);
     }
 }
