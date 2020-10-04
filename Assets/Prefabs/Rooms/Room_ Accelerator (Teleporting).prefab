@@ -79,12 +79,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   configs:
   - referencePoint: {fileID: 311528978500598356}
-    roomPosition: 0
+    roomPosition: 2
   - referencePoint: {fileID: 6644421428597931485}
-    roomPosition: 0
+    roomPosition: 1
   - referencePoint: {fileID: 1609327677193404860}
-    roomPosition: 0
-  room: {fileID: 0}
+    roomPosition: 3
+  room: {fileID: 2139172713330221163}
 --- !u!1 &2067426911
 GameObject:
   m_ObjectHideFlags: 0
@@ -219,6 +219,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8020246182889791822}
+  - component: {fileID: 2139172713330221163}
   m_Layer: 0
   m_Name: Room_ Accelerator (Teleporting)
   m_TagString: Untagged
@@ -243,6 +244,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2139172713330221163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8020246182889791809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fc525e82968d864f8f77619d4123cde, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  locations:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &8020246183969668266
 GameObject:
   m_ObjectHideFlags: 0
