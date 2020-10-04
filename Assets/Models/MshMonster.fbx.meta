@@ -6,6 +6,18 @@ ModelImporter:
   - first:
       74: 8278384282904304299
     second: animClippyInit
+  - first:
+      74: 251004157142304055
+    second: animIdleSwaying
+  - first:
+      74: 173318201601416474
+    second: animClippySlither
+  - first:
+      74: 4296588731915769882
+    second: animClippyJump
+  - first:
+      74: -2211795027036957697
+    second: animClippyWake.001
   externalObjects:
   - first:
       type: UnityEngine:Material
