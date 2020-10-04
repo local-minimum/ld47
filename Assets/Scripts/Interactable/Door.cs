@@ -16,6 +16,7 @@ public class Door : MonoBehaviour
 
     public bool isOpen { get; private set; }
     int toggleIteraion = 0;
+    public bool locked { get; set; }
 
     public void Toggle()
     {
@@ -24,25 +25,27 @@ public class Door : MonoBehaviour
     }
 
     IEnumerator<WaitForSeconds> DoToggle(int iteration) {
-        
-        float startAngle = isOpen ? yRotationClosed : currentRotation;
-        float timeDirection = isOpen ? -1 : 1;
-        float endAngle = isOpen ? currentRotation : yRotationOpened;
-        Debug.Log(string.Format("{0} -> {1}, t: {2} / {3}", startAngle, endAngle, currentDuration, timeDirection));
-        isOpen = !isOpen;
-        while (toggleIteraion == iteration && currentDuration >= 0 && currentDuration <= animationDuration)
+        if (!locked || isOpen)
         {
-            currentRotation = Mathf.LerpAngle(startAngle, endAngle, currentDuration / animationDuration);
-            transform.rotation = Quaternion.AngleAxis(currentRotation, Vector3.up);
-            yield return new WaitForSeconds(0.02f);
-            currentDuration += 0.02f * timeDirection;
+            float startAngle = isOpen ? yRotationClosed : currentRotation;
+            float timeDirection = isOpen ? -1 : 1;
+            float endAngle = isOpen ? currentRotation : yRotationOpened;
+            Debug.Log(string.Format("{0} -> {1}, t: {2} / {3}", startAngle, endAngle, currentDuration, timeDirection));
+            isOpen = !isOpen;
+            while (toggleIteraion == iteration && currentDuration >= 0 && currentDuration <= animationDuration)
+            {
+                currentRotation = Mathf.LerpAngle(startAngle, endAngle, currentDuration / animationDuration);
+                transform.rotation = Quaternion.AngleAxis(currentRotation, Vector3.up);
+                yield return new WaitForSeconds(0.02f);
+                currentDuration += 0.02f * timeDirection;
+            }
+            if (toggleIteraion == iteration)
+            {
+                currentDuration = Mathf.Clamp01(currentDuration);
+                currentRotation = Mathf.LerpAngle(startAngle, endAngle, currentDuration / animationDuration);
+                transform.rotation = Quaternion.AngleAxis(currentRotation, Vector3.up);
+            }
         }
-        if (toggleIteraion == iteration)
-        {
-            currentDuration = Mathf.Clamp01(currentDuration);
-            currentRotation = Mathf.LerpAngle(startAngle, endAngle, currentDuration / animationDuration);
-            transform.rotation = Quaternion.AngleAxis(currentRotation, Vector3.up);            
-        }        
     }
 
 

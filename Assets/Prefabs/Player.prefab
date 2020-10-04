@@ -251,7 +251,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8567859736307968385}
   - component: {fileID: 8567859736307968384}
-  - component: {fileID: 2775967382196040317}
+  - component: {fileID: 6518125409096494578}
   m_Layer: 8
   m_Name: Spot Light
   m_TagString: Untagged
@@ -334,8 +334,8 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!65 &2775967382196040317
-BoxCollider:
+--- !u!135 &6518125409096494578
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -345,8 +345,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.25, y: 0.08, z: 0.2}
-  m_Center: {x: 0, y: -0.04, z: -0.08}
+  m_Radius: 0.02
+  m_Center: {x: 0, y: 0, z: -0.06}
 --- !u!1 &8567859736519407433
 GameObject:
   m_ObjectHideFlags: 0
@@ -510,7 +510,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  stepLength: 0.8
+  stepLength: 1.5
   stepDuration: 1.5
   eyeCamera: {fileID: 8567859737503507338}
   turn90Duration: 1.5
@@ -801,15 +801,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -6955414164365341537, guid: 9b164e125dc14b94eb5364010316294f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.9849176e-10
+      value: -0.000000001804437
       objectReference: {fileID: 0}
     - target: {fileID: -6955414164365341537, guid: 9b164e125dc14b94eb5364010316294f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.0073191943
+      value: 0.0073191924
       objectReference: {fileID: 0}
     - target: {fileID: -6955414164365341537, guid: 9b164e125dc14b94eb5364010316294f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.000000002793967
+      value: -0.0000000018626447
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 9b164e125dc14b94eb5364010316294f, type: 3}
       propertyPath: m_Name
@@ -833,15 +833,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7041889643587472549, guid: 9b164e125dc14b94eb5364010316294f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.0000000011932572
+      value: 0.0000000013096725
       objectReference: {fileID: 0}
     - target: {fileID: 7041889643587472549, guid: 9b164e125dc14b94eb5364010316294f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.0000000011641544
+      value: 4.656618e-10
       objectReference: {fileID: 0}
     - target: {fileID: 7041889643587472549, guid: 9b164e125dc14b94eb5364010316294f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.009638192
+      value: 0.009638194
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9b164e125dc14b94eb5364010316294f, type: 3}
