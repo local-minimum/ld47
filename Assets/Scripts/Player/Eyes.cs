@@ -20,7 +20,7 @@ public class Eyes : MonoBehaviour
         if (Physics.Raycast(transform.position, transform.forward, out hit, detectionRange, interactableLayers)) {
             lastLook = hit.point;
             // Debug.Log(hit.collider.name);
-            Interactable inter = hit.collider.gameObject.GetComponentInChildren<Interactable>();
+            Interactable inter = hit.collider.gameObject.GetComponent<Interactable>();
             if (inter != null)
             {
                 inter.LookedAt(transform.position, transform.forward);

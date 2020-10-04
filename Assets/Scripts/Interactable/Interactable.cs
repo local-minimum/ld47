@@ -8,9 +8,8 @@ public class Interactable : MonoBehaviour
 
     [SerializeField, Range(0, 5f)]
     float actionDistance = 1f;
-
-    [SerializeField]
-    Transform[] uiAnchor;
+    
+    UILocation[] uiAnchor;
 
     [SerializeField, Range(0, 3f)]
     float uiLingerTime = 0.2f;
@@ -21,7 +20,12 @@ public class Interactable : MonoBehaviour
     Transform bestAnchor;
     //Vector3 looker;
 
-    // Update is called once per frame
+
+    private void Start()
+    {
+        uiAnchor = GetComponentsInChildren<UILocation>();
+    }
+
     void Update()
     {
         if (focused != this) return;
@@ -43,7 +47,7 @@ public class Interactable : MonoBehaviour
 
         if (focused != this)
         {
-            bestAnchor = uiAnchor[0];
+            bestAnchor = uiAnchor[0].transform;
             float bestAngle = 180;
             for (int i=0; i<uiAnchor.Length; i++)
             {
@@ -51,7 +55,7 @@ public class Interactable : MonoBehaviour
                 if (angle < bestAngle)
                 {
                     bestAngle = angle;
-                    bestAnchor = uiAnchor[i];
+                    bestAnchor = uiAnchor[i].transform;
                 }
             }
             UIInteractable.Place(bestAnchor);

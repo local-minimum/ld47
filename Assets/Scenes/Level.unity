@@ -164,15 +164,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1818883603035624796, guid: 2186f391ca452b0418b18827e8466922, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.0000000015425032
+      value: -2.9103833e-10
       objectReference: {fileID: 0}
     - target: {fileID: 1818883603035624796, guid: 2186f391ca452b0418b18827e8466922, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.4924635e-10
+      value: 5.820772e-10
       objectReference: {fileID: 0}
     - target: {fileID: 1818883603035624796, guid: 2186f391ca452b0418b18827e8466922, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.009638194
+      value: 0.009638195
       objectReference: {fileID: 0}
     - target: {fileID: 1818883603035624796, guid: 2186f391ca452b0418b18827e8466922, type: 3}
       propertyPath: m_LocalRotation.x
@@ -296,23 +296,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7493233287968101734, guid: 2186f391ca452b0418b18827e8466922, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.000000002328306
+      value: 0.0000000018626447
       objectReference: {fileID: 0}
     - target: {fileID: 7493233287968101734, guid: 2186f391ca452b0418b18827e8466922, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.000000002793967
+      value: -0.000000003143213
       objectReference: {fileID: 0}
     - target: {fileID: 7493233287968101734, guid: 2186f391ca452b0418b18827e8466922, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.0073191924
+      value: 0.007319195
       objectReference: {fileID: 0}
     - target: {fileID: 7493233287968101734, guid: 2186f391ca452b0418b18827e8466922, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.011876281
+      value: -0.011876335
       objectReference: {fileID: 0}
     - target: {fileID: 7493233287968101734, guid: 2186f391ca452b0418b18827e8466922, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.096636206
+      value: -0.096636385
       objectReference: {fileID: 0}
     - target: {fileID: 7493233287968101734, guid: 2186f391ca452b0418b18827e8466922, type: 3}
       propertyPath: m_LocalRotation.z
@@ -320,7 +320,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7493233287968101734, guid: 2186f391ca452b0418b18827e8466922, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9530317
+      value: 0.95303166
       objectReference: {fileID: 0}
     - target: {fileID: 8378174715427890344, guid: 2186f391ca452b0418b18827e8466922, type: 3}
       propertyPath: m_Layer
@@ -332,31 +332,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8567859736519407445, guid: 2186f391ca452b0418b18827e8466922, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.14
+      value: 0.06
       objectReference: {fileID: 0}
     - target: {fileID: 8567859736519407445, guid: 2186f391ca452b0418b18827e8466922, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.05
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8567859736519407445, guid: 2186f391ca452b0418b18827e8466922, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.65
+      value: 14.87
       objectReference: {fileID: 0}
     - target: {fileID: 8567859736519407445, guid: 2186f391ca452b0418b18827e8466922, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 3.2151185e-15
+      value: 0.00000008360326
       objectReference: {fileID: 0}
     - target: {fileID: 8567859736519407445, guid: 2186f391ca452b0418b18827e8466922, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.03417544
+      value: -0.80772036
       objectReference: {fileID: 0}
     - target: {fileID: 8567859736519407445, guid: 2186f391ca452b0418b18827e8466922, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.0000000040740273
+      value: -0.000000008031509
       objectReference: {fileID: 0}
     - target: {fileID: 8567859736519407445, guid: 2186f391ca452b0418b18827e8466922, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9994159
+      value: 0.5895658
       objectReference: {fileID: 0}
     - target: {fileID: 8567859736519407445, guid: 2186f391ca452b0418b18827e8466922, type: 3}
       propertyPath: m_RootOrder
@@ -368,7 +368,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8567859736519407445, guid: 2186f391ca452b0418b18827e8466922, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -3.917
+      value: -107.748
       objectReference: {fileID: 0}
     - target: {fileID: 8567859736519407445, guid: 2186f391ca452b0418b18827e8466922, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -417,6 +417,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: -6251714275010607235, guid: 77a65ce8f08bd7e4384478d11802e782, type: 3}
   m_PrefabInstance: {fileID: 956085930}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &121366353 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -7740425084300809013, guid: 77a65ce8f08bd7e4384478d11802e782, type: 3}
+  m_PrefabInstance: {fileID: 956085930}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &121366357
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -430,7 +435,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actionDistance: 2.3
-  uiAnchor: []
   uiLingerTime: 0.2
 --- !u!1 &162344223
 GameObject:
@@ -481,6 +485,49 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animationDuration: 1
   slideDistance: 2.5
+--- !u!1 &184674337
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 184674338}
+  - component: {fileID: 184674339}
+  m_Layer: 0
+  m_Name: Door UI Outside - Cafeteria 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &184674338
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 184674337}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0.7071068, w: 0}
+  m_LocalPosition: {x: -1.21, y: -0.13, z: 1.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1334025534}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90, y: 180, z: 0}
+--- !u!114 &184674339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 184674337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4916185a6bf00047a09fd1d7f1c889b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &200619879 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -1695438661998236220, guid: 77a65ce8f08bd7e4384478d11802e782, type: 3}
@@ -557,6 +604,73 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e3b0b5821f34e84aa13ea538fbb0876, type: 3}
+--- !u!1 &236824606 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6329224114364760167, guid: 77a65ce8f08bd7e4384478d11802e782, type: 3}
+  m_PrefabInstance: {fileID: 956085930}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &236824607 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3905528581670173055, guid: 77a65ce8f08bd7e4384478d11802e782, type: 3}
+  m_PrefabInstance: {fileID: 956085930}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &236824608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 236824606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 984cfaacb8ec71541b9ec4acba14838a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actionDistance: 2.3
+  uiLingerTime: 0.2
+--- !u!1 &263968343
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 263968344}
+  - component: {fileID: 263968345}
+  m_Layer: 0
+  m_Name: Door UI Inside - Laser Lab 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &263968344
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 263968343}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -1.21, y: 0.26, z: 1.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1572835912}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &263968345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 263968343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4916185a6bf00047a09fd1d7f1c889b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &264862343
 GameObject:
   m_ObjectHideFlags: 0
@@ -731,6 +845,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4355219804372664697, guid: 77a65ce8f08bd7e4384478d11802e782, type: 3}
   m_PrefabInstance: {fileID: 956085930}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &291618913 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 763726331062297337, guid: 77a65ce8f08bd7e4384478d11802e782, type: 3}
+  m_PrefabInstance: {fileID: 956085930}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &291618917
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -744,7 +863,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actionDistance: 2.3
-  uiAnchor: []
   uiLingerTime: 0.2
 --- !u!1 &344969240 stripped
 GameObject:
@@ -784,6 +902,135 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animationDuration: 1
   slideDistance: 2.5
+--- !u!1 &372738357
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 372738358}
+  - component: {fileID: 372738359}
+  m_Layer: 0
+  m_Name: Door UI Inside - Office 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &372738358
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 372738357}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0.7071068, w: 0}
+  m_LocalPosition: {x: -1.21, y: -0.13, z: 1.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1415083327}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90, y: 180, z: 0}
+--- !u!114 &372738359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 372738357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4916185a6bf00047a09fd1d7f1c889b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &376125537
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 376125538}
+  - component: {fileID: 376125539}
+  m_Layer: 0
+  m_Name: Door UI Inside - Cafeteria 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &376125538
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 376125537}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -1.21, y: 0.26, z: 1.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1334025534}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &376125539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 376125537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4916185a6bf00047a09fd1d7f1c889b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &439203026
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 439203027}
+  - component: {fileID: 439203028}
+  m_Layer: 0
+  m_Name: Door UI Outside - Office 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &439203027
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 439203026}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -1.21, y: 0.26, z: 0.9}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1415083327}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &439203028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 439203026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4916185a6bf00047a09fd1d7f1c889b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &455360675
 GameObject:
   m_ObjectHideFlags: 0
@@ -893,6 +1140,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: -448680881416887720, guid: 77a65ce8f08bd7e4384478d11802e782, type: 3}
   m_PrefabInstance: {fileID: 956085930}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &509572740 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -5473153729775919999, guid: 77a65ce8f08bd7e4384478d11802e782, type: 3}
+  m_PrefabInstance: {fileID: 956085930}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &509572744
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -906,7 +1158,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actionDistance: 2.3
-  uiAnchor: []
   uiLingerTime: 0.2
 --- !u!1 &511321200
 GameObject:
@@ -943,6 +1194,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: -6478177853068965875, guid: 77a65ce8f08bd7e4384478d11802e782, type: 3}
   m_PrefabInstance: {fileID: 956085930}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &516751514 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -7493144439228309906, guid: 77a65ce8f08bd7e4384478d11802e782, type: 3}
+  m_PrefabInstance: {fileID: 956085930}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &516751518
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -956,7 +1212,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actionDistance: 2.3
-  uiAnchor: []
   uiLingerTime: 0.2
 --- !u!4 &587183558 stripped
 Transform:
@@ -1090,6 +1345,49 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 840b59ab11222fe4faf9de5ceadab092, type: 3}
+--- !u!1 &674887967
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 674887968}
+  - component: {fileID: 674887969}
+  m_Layer: 0
+  m_Name: Door UI Outside - Office 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &674887968
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 674887967}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0.7071068, w: 0}
+  m_LocalPosition: {x: -1.21, y: -0.13, z: 0.9}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1443659283}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -90, y: 180, z: 0}
+--- !u!114 &674887969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 674887967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4916185a6bf00047a09fd1d7f1c889b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &680183241
 GameObject:
   m_ObjectHideFlags: 0
@@ -1155,6 +1453,92 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4, y: 2, z: 0.1}
   m_Center: {x: 0, y: 1, z: 0}
+--- !u!1 &685690702
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 685690703}
+  - component: {fileID: 685690704}
+  m_Layer: 0
+  m_Name: Door UI Inside - Cafeteria 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &685690703
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 685690702}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0.7071068, w: 0}
+  m_LocalPosition: {x: -1.21, y: -0.13, z: 1.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 516751514}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -90, y: 180, z: 0}
+--- !u!114 &685690704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 685690702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4916185a6bf00047a09fd1d7f1c889b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &717448474
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 717448475}
+  - component: {fileID: 717448476}
+  m_Layer: 0
+  m_Name: Door UI Outside - Accelerator 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &717448475
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 717448474}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0.7071068, w: 0}
+  m_LocalPosition: {x: -1.21, y: -0.13, z: 1.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 509572740}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90, y: 180, z: 0}
+--- !u!114 &717448476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 717448474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4916185a6bf00047a09fd1d7f1c889b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &800400548
 GameObject:
   m_ObjectHideFlags: 0
@@ -1185,6 +1569,92 @@ Transform:
   m_Father: {fileID: 1036967814}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &808413718
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 808413719}
+  - component: {fileID: 808413720}
+  m_Layer: 0
+  m_Name: Door UI Inside - Change Room 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &808413719
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 808413718}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0.7071068, w: 0}
+  m_LocalPosition: {x: -1.21, y: -0.13, z: 1.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 121366353}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90, y: 180, z: 0}
+--- !u!114 &808413720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 808413718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4916185a6bf00047a09fd1d7f1c889b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &847880156
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 847880157}
+  - component: {fileID: 847880158}
+  m_Layer: 0
+  m_Name: Door UI Inside - Elevator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &847880157
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 847880156}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -1.21, y: 0.26, z: 1.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 236824607}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &847880158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 847880156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4916185a6bf00047a09fd1d7f1c889b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &862487148 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8996855137889864377, guid: 77a65ce8f08bd7e4384478d11802e782, type: 3}
@@ -1208,10 +1678,50 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actionDistance: 2.3
-  uiAnchor:
-  - {fileID: 1935686721}
-  - {fileID: 1201040381}
   uiLingerTime: 0.2
+--- !u!1 &865253072
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 865253073}
+  - component: {fileID: 865253074}
+  m_Layer: 0
+  m_Name: Door UI Outside - Change Room 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &865253073
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 865253072}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -1.21, y: 0.26, z: 1.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 121366353}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &865253074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 865253072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4916185a6bf00047a09fd1d7f1c889b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &879121931
 GameObject:
   m_ObjectHideFlags: 0
@@ -1276,6 +1786,49 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 10, y: 2, z: 0.1}
   m_Center: {x: 0, y: 1, z: 0}
+--- !u!1 &926023645
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 926023646}
+  - component: {fileID: 926023647}
+  m_Layer: 0
+  m_Name: Door UI Outside - Server Right
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &926023646
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 926023645}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -1.21, y: 0.26, z: 0.9}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1569234077}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &926023647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 926023645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4916185a6bf00047a09fd1d7f1c889b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &937744657
 GameObject:
   m_ObjectHideFlags: 0
@@ -1317,6 +1870,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1036967814}
     m_Modifications:
+    - target: {fileID: -8996855137889864377, guid: 77a65ce8f08bd7e4384478d11802e782, type: 3}
+      propertyPath: m_Name
+      value: Door.004 - Server Left
+      objectReference: {fileID: 0}
+    - target: {fileID: -8860452826292875254, guid: 77a65ce8f08bd7e4384478d11802e782, type: 3}
+      propertyPath: m_Name
+      value: Door.002 - West Side
+      objectReference: {fileID: 0}
+    - target: {fileID: -8860452826292875254, guid: 77a65ce8f08bd7e4384478d11802e782, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 77a65ce8f08bd7e4384478d11802e782, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1347,7 +1912,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 77a65ce8f08bd7e4384478d11802e782, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 77a65ce8f08bd7e4384478d11802e782, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1361,9 +1926,49 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8125247706189784072, guid: 77a65ce8f08bd7e4384478d11802e782, type: 3}
+      propertyPath: m_Name
+      value: Door.003 - Server Right
+      objectReference: {fileID: 0}
+    - target: {fileID: -7383324702474652459, guid: 77a65ce8f08bd7e4384478d11802e782, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7025644118391274906, guid: 77a65ce8f08bd7e4384478d11802e782, type: 3}
+      propertyPath: m_Name
+      value: Door.009 - West
+      objectReference: {fileID: 0}
+    - target: {fileID: -6478177853068965875, guid: 77a65ce8f08bd7e4384478d11802e782, type: 3}
+      propertyPath: m_Name
+      value: Door.006 - North Door
+      objectReference: {fileID: 0}
+    - target: {fileID: -6251714275010607235, guid: 77a65ce8f08bd7e4384478d11802e782, type: 3}
+      propertyPath: m_Name
+      value: Door.001 - East Side
+      objectReference: {fileID: 0}
+    - target: {fileID: -5242096035324009673, guid: 77a65ce8f08bd7e4384478d11802e782, type: 3}
+      propertyPath: m_Name
+      value: Door.014 - Office 3
+      objectReference: {fileID: 0}
     - target: {fileID: -3765790699796706956, guid: 77a65ce8f08bd7e4384478d11802e782, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1772921791760848375, guid: 77a65ce8f08bd7e4384478d11802e782, type: 3}
+      propertyPath: m_Name
+      value: Door.011 - Door East
+      objectReference: {fileID: 0}
+    - target: {fileID: -1581931170771310995, guid: 77a65ce8f08bd7e4384478d11802e782, type: 3}
+      propertyPath: m_Name
+      value: Door.005 - South Door
+      objectReference: {fileID: 0}
+    - target: {fileID: -1450445382357083870, guid: 77a65ce8f08bd7e4384478d11802e782, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -448680881416887720, guid: 77a65ce8f08bd7e4384478d11802e782, type: 3}
+      propertyPath: m_Name
+      value: Door.007 - South
       objectReference: {fileID: 0}
     - target: {fileID: -336855192323670084, guid: 77a65ce8f08bd7e4384478d11802e782, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1393,6 +1998,26 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4355219804372664697, guid: 77a65ce8f08bd7e4384478d11802e782, type: 3}
+      propertyPath: m_Name
+      value: Door.008 - East
+      objectReference: {fileID: 0}
+    - target: {fileID: 6329224114364760167, guid: 77a65ce8f08bd7e4384478d11802e782, type: 3}
+      propertyPath: m_Name
+      value: Door - Elevator
+      objectReference: {fileID: 0}
+    - target: {fileID: 6329224114364760167, guid: 77a65ce8f08bd7e4384478d11802e782, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6473164697707573050, guid: 77a65ce8f08bd7e4384478d11802e782, type: 3}
+      propertyPath: m_Name
+      value: Door.010 - Door South
+      objectReference: {fileID: 0}
+    - target: {fileID: 6780376831745370984, guid: 77a65ce8f08bd7e4384478d11802e782, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7803233369086250453, guid: 77a65ce8f08bd7e4384478d11802e782, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.17
@@ -1400,6 +2025,10 @@ PrefabInstance:
     - target: {fileID: 7803233369086250453, guid: 77a65ce8f08bd7e4384478d11802e782, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 8728903332922157251, guid: 77a65ce8f08bd7e4384478d11802e782, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a65ce8f08bd7e4384478d11802e782, type: 3}
@@ -1463,6 +2092,49 @@ Transform:
   m_Father: {fileID: 1036967814}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1024785786
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1024785787}
+  - component: {fileID: 1024785788}
+  m_Layer: 0
+  m_Name: Door UI Inside - Change Room 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1024785787
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1024785786}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -1.21, y: 0.26, z: 1.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1342938560}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &1024785788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1024785786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4916185a6bf00047a09fd1d7f1c889b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1036967813
 GameObject:
   m_ObjectHideFlags: 0
@@ -1668,8 +2340,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1201040381}
+  - component: {fileID: 1201040382}
   m_Layer: 0
-  m_Name: Door UI Inside
+  m_Name: Door UI Inside - Server Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1683,12 +2356,24 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1201040380}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -1.21, y: 0.26, z: 0.9}
+  m_LocalPosition: {x: -1.21, y: 0.26, z: 1.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 862487149}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &1201040382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1201040380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4916185a6bf00047a09fd1d7f1c889b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1201911037 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2044052492889527310, guid: 77a65ce8f08bd7e4384478d11802e782, type: 3}
@@ -1727,6 +2412,92 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animationDuration: 1
   slideDistance: 2.5
+--- !u!1 &1226828046
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1226828047}
+  - component: {fileID: 1226828048}
+  m_Layer: 0
+  m_Name: Door UI Outside - Accelerator 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1226828047
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1226828046}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -1.21, y: 0.26, z: 1.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 291618913}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &1226828048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1226828046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4916185a6bf00047a09fd1d7f1c889b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1254474768
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1254474769}
+  - component: {fileID: 1254474770}
+  m_Layer: 0
+  m_Name: Door UI Outside - Change Room 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1254474769
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1254474768}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0.7071068, w: 0}
+  m_LocalPosition: {x: -1.21, y: -0.13, z: 1.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1342938560}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -90, y: 180, z: 0}
+--- !u!114 &1254474770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1254474768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4916185a6bf00047a09fd1d7f1c889b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1315595356 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2566870957853877536, guid: 77a65ce8f08bd7e4384478d11802e782, type: 3}
@@ -1751,6 +2522,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: -1581931170771310995, guid: 77a65ce8f08bd7e4384478d11802e782, type: 3}
   m_PrefabInstance: {fileID: 956085930}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1334025534 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 317304193556828559, guid: 77a65ce8f08bd7e4384478d11802e782, type: 3}
+  m_PrefabInstance: {fileID: 956085930}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1334025538
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1764,11 +2540,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actionDistance: 2.3
-  uiAnchor: []
   uiLingerTime: 0.2
 --- !u!1 &1342938559 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8860452826292875254, guid: 77a65ce8f08bd7e4384478d11802e782, type: 3}
+  m_PrefabInstance: {fileID: 956085930}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1342938560 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8310277950491536010, guid: 77a65ce8f08bd7e4384478d11802e782, type: 3}
   m_PrefabInstance: {fileID: 956085930}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &1342938564
@@ -1784,11 +2564,187 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actionDistance: 2.3
-  uiAnchor: []
   uiLingerTime: 0.2
+--- !u!1 &1350706767
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1350706768}
+  - component: {fileID: 1350706769}
+  m_Layer: 0
+  m_Name: Door UI Outside - Laser Lab 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1350706768
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1350706767}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0.7071068, w: 0}
+  m_LocalPosition: {x: -1.21, y: -0.13, z: 1.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1572835912}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -90, y: 180, z: 0}
+--- !u!114 &1350706769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1350706767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4916185a6bf00047a09fd1d7f1c889b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1351369657
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1351369658}
+  - component: {fileID: 1351369659}
+  m_Layer: 0
+  m_Name: Door UI Outside - Office 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1351369658
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1351369657}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0.7071068, w: 0}
+  m_LocalPosition: {x: -1.21, y: -0.13, z: 0.9}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1669724171}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -90, y: 180, z: 0}
+--- !u!114 &1351369659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1351369657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4916185a6bf00047a09fd1d7f1c889b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1363287958
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1363287959}
+  - component: {fileID: 1363287960}
+  m_Layer: 0
+  m_Name: Door UI Inside - Laser Lab 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1363287959
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1363287958}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0.7071068, w: 0}
+  m_LocalPosition: {x: -1.21, y: -0.13, z: 1.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1988135374}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -90, y: 180, z: 0}
+--- !u!114 &1363287960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1363287958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4916185a6bf00047a09fd1d7f1c889b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1409054563
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1409054564}
+  - component: {fileID: 1409054565}
+  m_Layer: 0
+  m_Name: Door UI Outside - Cafeteria 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1409054564
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1409054563}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -1.21, y: 0.26, z: 1.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 516751514}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &1409054565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1409054563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4916185a6bf00047a09fd1d7f1c889b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1415083326 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -5242096035324009673, guid: 77a65ce8f08bd7e4384478d11802e782, type: 3}
+  m_PrefabInstance: {fileID: 956085930}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1415083327 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3797121157652928835, guid: 77a65ce8f08bd7e4384478d11802e782, type: 3}
   m_PrefabInstance: {fileID: 956085930}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &1415083331
@@ -1804,11 +2760,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actionDistance: 2.3
-  uiAnchor: []
   uiLingerTime: 0.2
 --- !u!1 &1443659282 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3846939458163145927, guid: 77a65ce8f08bd7e4384478d11802e782, type: 3}
+  m_PrefabInstance: {fileID: 956085930}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1443659283 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 121588041085683677, guid: 77a65ce8f08bd7e4384478d11802e782, type: 3}
   m_PrefabInstance: {fileID: 956085930}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &1443659287
@@ -1824,7 +2784,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actionDistance: 2.3
-  uiAnchor: []
   uiLingerTime: 0.2
 --- !u!1 &1446531639
 GameObject:
@@ -1988,6 +2947,49 @@ MonoBehaviour:
   - referencePoint: {fileID: 1491658397}
     roomPosition: 0
   room: {fileID: 3007307523392202586}
+--- !u!1 &1498730188
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1498730189}
+  - component: {fileID: 1498730190}
+  m_Layer: 0
+  m_Name: Door UI Outside - Elevator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1498730189
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1498730188}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0.7071068, w: 0}
+  m_LocalPosition: {x: -1.21, y: -0.13, z: 1.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 236824607}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -90, y: 180, z: 0}
+--- !u!114 &1498730190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1498730188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4916185a6bf00047a09fd1d7f1c889b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1509466746
 GameObject:
   m_ObjectHideFlags: 0
@@ -2020,6 +3022,49 @@ Transform:
   m_Father: {fileID: 1036967814}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1527023860
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1527023861}
+  - component: {fileID: 1527023862}
+  m_Layer: 0
+  m_Name: Door UI Inside - Office 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1527023861
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527023860}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -1.21, y: 0.26, z: 1.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1669724171}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &1527023862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527023860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4916185a6bf00047a09fd1d7f1c889b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1555982638 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8911598628348107566, guid: 77a65ce8f08bd7e4384478d11802e782, type: 3}
@@ -2108,6 +3153,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: -8125247706189784072, guid: 77a65ce8f08bd7e4384478d11802e782, type: 3}
   m_PrefabInstance: {fileID: 956085930}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1569234077 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 956869915744686665, guid: 77a65ce8f08bd7e4384478d11802e782, type: 3}
+  m_PrefabInstance: {fileID: 956085930}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1569234081
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2121,11 +3171,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actionDistance: 2.3
-  uiAnchor: []
   uiLingerTime: 0.2
 --- !u!1 &1572835911 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6473164697707573050, guid: 77a65ce8f08bd7e4384478d11802e782, type: 3}
+  m_PrefabInstance: {fileID: 956085930}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1572835912 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9118959887917327748, guid: 77a65ce8f08bd7e4384478d11802e782, type: 3}
   m_PrefabInstance: {fileID: 956085930}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &1572835916
@@ -2141,7 +3195,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actionDistance: 2.3
-  uiAnchor: []
   uiLingerTime: 0.2
 --- !u!1 &1583493354 stripped
 GameObject:
@@ -2319,6 +3372,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: -7025644118391274906, guid: 77a65ce8f08bd7e4384478d11802e782, type: 3}
   m_PrefabInstance: {fileID: 956085930}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1644835372 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5600099976247103595, guid: 77a65ce8f08bd7e4384478d11802e782, type: 3}
+  m_PrefabInstance: {fileID: 956085930}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1644835376
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2332,11 +3390,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actionDistance: 2.3
-  uiAnchor: []
   uiLingerTime: 0.2
 --- !u!1 &1669724170 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3786813489348497821, guid: 77a65ce8f08bd7e4384478d11802e782, type: 3}
+  m_PrefabInstance: {fileID: 956085930}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1669724171 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -668310493785801660, guid: 77a65ce8f08bd7e4384478d11802e782, type: 3}
   m_PrefabInstance: {fileID: 956085930}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &1669724175
@@ -2352,7 +3414,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actionDistance: 2.3
-  uiAnchor: []
   uiLingerTime: 0.2
 --- !u!1 &1670663234
 GameObject:
@@ -2554,6 +3615,49 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animationDuration: 1
   slideDistance: 2.5
+--- !u!1 &1755669685
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1755669686}
+  - component: {fileID: 1755669687}
+  m_Layer: 0
+  m_Name: Door UI Inside - Accelerator 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1755669686
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755669685}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -1.21, y: 0.26, z: 1.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1644835372}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &1755669687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755669685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4916185a6bf00047a09fd1d7f1c889b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1762390772
 GameObject:
   m_ObjectHideFlags: 0
@@ -2612,6 +3716,49 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 2, z: 1}
   m_Center: {x: 0, y: 1, z: 0}
+--- !u!1 &1768859238
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1768859239}
+  - component: {fileID: 1768859240}
+  m_Layer: 0
+  m_Name: Door UI Intside - Accelerator 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1768859239
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1768859238}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -1.21, y: 0.26, z: 1.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 509572740}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &1768859240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1768859238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4916185a6bf00047a09fd1d7f1c889b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1781223119 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1996864415163014138, guid: 77a65ce8f08bd7e4384478d11802e782, type: 3}
@@ -2631,6 +3778,49 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animationDuration: 1
   slideDistance: 2.5
+--- !u!1 &1794663094
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1794663095}
+  - component: {fileID: 1794663096}
+  m_Layer: 0
+  m_Name: Door UI Inside - Server Right
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1794663095
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1794663094}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0.7071068, w: 0}
+  m_LocalPosition: {x: -1.21, y: -0.13, z: 1.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1569234077}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90, y: 180, z: 0}
+--- !u!114 &1794663096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1794663094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4916185a6bf00047a09fd1d7f1c889b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1804097598
 GameObject:
   m_ObjectHideFlags: 0
@@ -2708,6 +3898,92 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animationDuration: 1
   slideDistance: 2.5
+--- !u!1 &1820382619
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1820382620}
+  - component: {fileID: 1820382621}
+  m_Layer: 0
+  m_Name: Door UI Outside - Laser Lab 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1820382620
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1820382619}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -1.21, y: 0.26, z: 1.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1988135374}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &1820382621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1820382619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4916185a6bf00047a09fd1d7f1c889b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1846426733
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1846426734}
+  - component: {fileID: 1846426735}
+  m_Layer: 0
+  m_Name: Door UI Outside - Accelerator 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1846426734
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1846426733}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0.7071068, w: 0}
+  m_LocalPosition: {x: -1.21, y: -0.13, z: 1.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1644835372}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -90, y: 180, z: 0}
+--- !u!114 &1846426735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1846426733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4916185a6bf00047a09fd1d7f1c889b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1852083162
 GameObject:
   m_ObjectHideFlags: 0
@@ -2738,6 +4014,49 @@ Transform:
   m_Father: {fileID: 680183242}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1889387629
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1889387630}
+  - component: {fileID: 1889387631}
+  m_Layer: 0
+  m_Name: Door UI Inside - Accelerator 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1889387630
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1889387629}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0.7071068, w: 0}
+  m_LocalPosition: {x: -1.21, y: -0.13, z: 1.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 291618913}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90, y: 180, z: 0}
+--- !u!114 &1889387631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1889387629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4916185a6bf00047a09fd1d7f1c889b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1935686720
 GameObject:
   m_ObjectHideFlags: 0
@@ -2747,8 +4066,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1935686721}
+  - component: {fileID: 1935686722}
   m_Layer: 0
-  m_Name: Door UI Outside
+  m_Name: Door UI Outside - Server Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2768,9 +4088,26 @@ Transform:
   m_Father: {fileID: 862487149}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: 180, z: 0}
+--- !u!114 &1935686722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1935686720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4916185a6bf00047a09fd1d7f1c889b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1988135373 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -1772921791760848375, guid: 77a65ce8f08bd7e4384478d11802e782, type: 3}
+  m_PrefabInstance: {fileID: 956085930}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1988135374 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -2902766725605831383, guid: 77a65ce8f08bd7e4384478d11802e782, type: 3}
   m_PrefabInstance: {fileID: 956085930}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &1988135378
@@ -2786,7 +4123,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actionDistance: 2.3
-  uiAnchor: []
   uiLingerTime: 0.2
 --- !u!1 &2094451623
 GameObject:
@@ -2848,6 +4184,49 @@ Transform:
   m_Father: {fileID: 1446531640}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2099805991
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2099805992}
+  - component: {fileID: 2099805993}
+  m_Layer: 0
+  m_Name: Door UI Inside - Office 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2099805992
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2099805991}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -1.21, y: 0.26, z: 1.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1443659283}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &2099805993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2099805991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4916185a6bf00047a09fd1d7f1c889b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2118302956
 GameObject:
   m_ObjectHideFlags: 0
@@ -3023,7 +4402,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3276140447982539202, guid: ba79eb4ddf9a8174785919dd9165ccb1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -15.7
+      value: -0.2
       objectReference: {fileID: 0}
     - target: {fileID: 3276140447982539202, guid: ba79eb4ddf9a8174785919dd9165ccb1, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3031,7 +4410,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3276140447982539202, guid: ba79eb4ddf9a8174785919dd9165ccb1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7.6
+      value: -10.6
       objectReference: {fileID: 0}
     - target: {fileID: 3276140447982539202, guid: ba79eb4ddf9a8174785919dd9165ccb1, type: 3}
       propertyPath: m_LocalRotation.x
