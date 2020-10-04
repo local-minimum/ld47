@@ -4,19 +4,18 @@ using UnityEngine;
 
 public class Door : MonoBehaviour
 {
-    [SerializeField]
-    float yRotationClosed;
-    [SerializeField]
-    float yRotationOpened;
-    float currentRotation;
-    float currentDuration;
+    Transform slider;
 
     [SerializeField, Range(0, 2)]
-    float animationDuration;
+    float animationDuration = 1;
 
     public bool isOpen { get; private set; }
     int toggleIteraion = 0;
     public bool locked { get; set; }
+
+    Vector3 sliderLocalLocked;
+    [SerializeField, Range(0, 3)]
+    float slideDistance = 1f;
 
     public void Toggle()
     {
@@ -27,23 +26,20 @@ public class Door : MonoBehaviour
     IEnumerator<WaitForSeconds> DoToggle(int iteration) {
         if (!locked || isOpen)
         {
-            float startAngle = isOpen ? yRotationClosed : currentRotation;
-            float timeDirection = isOpen ? -1 : 1;
-            float endAngle = isOpen ? currentRotation : yRotationOpened;
-            Debug.Log(string.Format("{0} -> {1}, t: {2} / {3}", startAngle, endAngle, currentDuration, timeDirection));
+            float duration = isOpen ? 1f : 0f;
+            float timeDirection = isOpen ? -1f : 1f;
+            GetComponentInChildren<Interactable>().interactable = isOpen;
             isOpen = !isOpen;
-            while (toggleIteraion == iteration && currentDuration >= 0 && currentDuration <= animationDuration)
+            while (toggleIteraion == iteration && duration >= 0 && duration <= animationDuration)
             {
-                currentRotation = Mathf.LerpAngle(startAngle, endAngle, currentDuration / animationDuration);
-                transform.rotation = Quaternion.AngleAxis(currentRotation, Vector3.up);
+                slider.localPosition = Vector3.Lerp(sliderLocalLocked, sliderLocalLocked + Vector3.right * slideDistance, duration / animationDuration);                
                 yield return new WaitForSeconds(0.02f);
-                currentDuration += 0.02f * timeDirection;
+                duration += 0.02f * timeDirection;
             }
             if (toggleIteraion == iteration)
             {
-                currentDuration = Mathf.Clamp01(currentDuration);
-                currentRotation = Mathf.LerpAngle(startAngle, endAngle, currentDuration / animationDuration);
-                transform.rotation = Quaternion.AngleAxis(currentRotation, Vector3.up);
+                duration = Mathf.Clamp01(duration);
+                slider.localPosition = Vector3.Lerp(sliderLocalLocked, sliderLocalLocked + Vector3.right * slideDistance, duration / animationDuration);                
             }
         }
     }
@@ -51,7 +47,14 @@ public class Door : MonoBehaviour
 
     private void Start()
     {
-        currentRotation = yRotationClosed;
+        slider = transform.GetChild(0);
+        sliderLocalLocked = slider.transform.localPosition;
+        Interactable interactable = GetComponentInChildren<Interactable>();
+        if (interactable != null)
+        {
+            interactable.interactable = true;
+        }
+        
     }
 
     private void Update()

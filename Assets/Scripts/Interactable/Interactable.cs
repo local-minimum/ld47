@@ -17,15 +17,17 @@ public class Interactable : MonoBehaviour
 
     float lastLookedUpon = 0f;
 
+    public bool interactable { get; set; }
     Transform bestAnchor;
     //Vector3 looker;
 
     // Update is called once per frame
     void Update()
     {
-        if (focused == this && Time.timeSinceLevelLoad - lastLookedUpon > uiLingerTime)
+        if (focused != this) return;
+        if (Time.timeSinceLevelLoad - lastLookedUpon > uiLingerTime || !interactable)
         {
-            focused = null;
+            focused = null;            
             UIInteractable.Hide();
         }
     }
@@ -37,6 +39,8 @@ public class Interactable : MonoBehaviour
             Debug.LogWarning(name);
             return;
         }
+        if (!interactable) return;
+
         if (focused != this)
         {
             bestAnchor = uiAnchor[0];
