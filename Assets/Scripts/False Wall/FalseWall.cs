@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class FalseWall : MonoBehaviour
 {
+    [SerializeField]
+    AudioClip fallSound;
+
     bool charged = false;
 
     public void FallDown()
@@ -12,7 +15,7 @@ public class FalseWall : MonoBehaviour
         {
             GetComponent<MeshRenderer>().enabled = true;
             GetComponent<MeshCollider>().enabled = true;
-            // TODO: Play sound
+            GetComponent<AudioSource>().PlayOneShot(fallSound);
         }
     }
 
