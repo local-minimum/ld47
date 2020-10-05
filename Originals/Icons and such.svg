@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.70000001"
-     inkscape:cx="648.15361"
-     inkscape:cy="517.03308"
+     inkscape:cx="92.690906"
+     inkscape:cy="597.24712"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -161,77 +161,93 @@
        inkscape:export-xdpi="252.16"
        inkscape:export-ydpi="252.16" />
     <g
-       id="g841"
-       transform="translate(6.9925595,21.204459)">
-      <ellipse
-         ry="20.847023"
-         rx="12.428033"
-         cy="167.3743"
-         cx="65.614662"
-         id="path835"
-         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1" />
-      <ellipse
-         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.91548848;stroke-opacity:1"
-         id="ellipse837"
-         cx="67.570839"
-         cy="167.04021"
-         rx="11.377721"
-         ry="19.085209" />
-    </g>
-    <g
-       id="g847"
-       transform="matrix(-1,0,0,1,211.95934,21.204459)">
-      <ellipse
-         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-         id="ellipse843"
-         cx="65.614662"
-         cy="167.3743"
-         rx="12.428033"
-         ry="20.847023" />
-      <ellipse
-         ry="19.085209"
-         rx="11.377721"
-         cy="167.04021"
-         cx="67.570839"
-         id="ellipse845"
-         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.91548848;stroke-opacity:1" />
+       id="g881"
+       inkscape:export-filename="C:\Users\Admin\Documents\Unity\LD47\Assets\Sprites\headphones.png"
+       inkscape:export-xdpi="180.38954"
+       inkscape:export-ydpi="180.38954"
+       transform="translate(154.21429,-92.226189)">
+      <g
+         transform="translate(6.9925595,21.204459)"
+         id="g841">
+        <ellipse
+           style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
+           id="path835"
+           cx="65.614662"
+           cy="167.3743"
+           rx="12.428033"
+           ry="20.847023" />
+        <ellipse
+           ry="19.085209"
+           rx="11.377721"
+           cy="167.04021"
+           cx="67.570839"
+           id="ellipse837"
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.91548848;stroke-opacity:1" />
+      </g>
+      <g
+         transform="matrix(-1,0,0,1,211.95934,21.204459)"
+         id="g847">
+        <ellipse
+           ry="20.847023"
+           rx="12.428033"
+           cy="167.3743"
+           cx="65.614662"
+           id="ellipse843"
+           style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1" />
+        <ellipse
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.91548848;stroke-opacity:1"
+           id="ellipse845"
+           cx="67.570839"
+           cy="167.04021"
+           rx="11.377721"
+           ry="19.085209" />
+      </g>
+      <path
+         sodipodi:nodetypes="csszsc"
+         inkscape:connector-curvature="0"
+         id="path850"
+         d="m 69.698808,168.94167 c 0,0 -2.866076,-23.52409 2.116667,-37.13616 2.549191,-6.96399 7.63626,-13.8683 14.363094,-16.99003 11.085671,-5.14455 33.403711,-4.0246 42.484521,0 9.08081,4.0246 12.65101,9.85824 15.40253,16.99003 5.28564,13.7001 3.175,36.64478 3.175,36.64478"
+         style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <text
+         id="text854"
+         y="165.65326"
+         x="108.41383"
+         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Impact;-inkscape-font-specification:Impact;text-align:center;text-anchor:middle;stroke-width:0.26458332"
+           y="165.65326"
+           x="108.41383"
+           id="tspan852"
+           sodipodi:role="line">Best played</tspan><tspan
+           id="tspan864"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Impact;-inkscape-font-specification:Impact;text-align:center;text-anchor:middle;stroke-width:0.26458332"
+           y="178.88243"
+           x="108.41383"
+           sodipodi:role="line" /><tspan
+           id="tspan856"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Impact;-inkscape-font-specification:Impact;text-align:center;text-anchor:middle;stroke-width:0.26458332"
+           y="193.34261"
+           x="108.41383"
+           sodipodi:role="line">with</tspan><tspan
+           id="tspan866"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Impact;-inkscape-font-specification:Impact;text-align:center;text-anchor:middle;stroke-width:0.26458332"
+           y="206.57178"
+           x="108.41383"
+           sodipodi:role="line" /><tspan
+           id="tspan860"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Impact;-inkscape-font-specification:Impact;text-align:center;text-anchor:middle;stroke-width:0.26458332"
+           y="221.03195"
+           x="108.41383"
+           sodipodi:role="line">headphones</tspan></text>
     </g>
     <path
-       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 69.698808,168.94167 c 0,0 -2.866076,-23.52409 2.116667,-37.13616 2.549191,-6.96399 7.63626,-13.8683 14.363094,-16.99003 11.085671,-5.14455 33.403711,-4.0246 42.484521,0 9.08081,4.0246 12.65101,9.85824 15.40253,16.99003 5.28564,13.7001 3.175,36.64478 3.175,36.64478"
-       id="path850"
+       style="fill:#ffb380;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-opacity:1"
+       d="m 53.943819,115.9494 h 45.948666 c 1.406635,0 2.539065,1.13242 2.539065,2.53906 v 60.31176 c 0,1.40664 -1.13243,2.53906 -2.539065,2.53906 H 71.720982 l -14.731622,12.27478 3.308542,-12.27478 h -6.354083 c -1.40664,0 -2.539061,-1.13242 -2.539061,-2.53906 v -60.31176 c 0,-1.40664 1.132421,-2.53906 2.539061,-2.53906 z"
+       id="rect883"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="csszsc" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="108.41383"
-       y="165.65326"
-       id="text854"><tspan
-         sodipodi:role="line"
-         id="tspan852"
-         x="108.41383"
-         y="165.65326"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Impact;-inkscape-font-specification:Impact;text-align:center;text-anchor:middle;stroke-width:0.26458332">Best played</tspan><tspan
-         sodipodi:role="line"
-         x="108.41383"
-         y="178.88243"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Impact;-inkscape-font-specification:Impact;text-align:center;text-anchor:middle;stroke-width:0.26458332"
-         id="tspan864" /><tspan
-         sodipodi:role="line"
-         x="108.41383"
-         y="193.34261"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Impact;-inkscape-font-specification:Impact;text-align:center;text-anchor:middle;stroke-width:0.26458332"
-         id="tspan856">with</tspan><tspan
-         sodipodi:role="line"
-         x="108.41383"
-         y="206.57178"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Impact;-inkscape-font-specification:Impact;text-align:center;text-anchor:middle;stroke-width:0.26458332"
-         id="tspan866" /><tspan
-         sodipodi:role="line"
-         x="108.41383"
-         y="221.03195"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Impact;-inkscape-font-specification:Impact;text-align:center;text-anchor:middle;stroke-width:0.26458332"
-         id="tspan860">headphones</tspan></text>
+       sodipodi:nodetypes="ssssscccssss"
+       inkscape:export-filename="C:\Users\Admin\Documents\Unity\LD47\Assets\Sprites\text_bubble.png"
+       inkscape:export-xdpi="159.6539"
+       inkscape:export-ydpi="159.6539" />
   </g>
 </svg>
