@@ -2,9 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum TriggerCondition
+{
+    ALWAYS,
+    ALWAYS_UNLESS_PREVIOUS,
+    REQUIRES_PREVIOUS,
+}
+
 public class MonsterScenario : MonoBehaviour
 {
-    static string CurrentScenario { get; set; }
+    public static string CurrentScenario { get; private set; }
 
     Monster monster;
 
@@ -20,16 +27,46 @@ public class MonsterScenario : MonoBehaviour
     [SerializeField, Range(0, 4)]
     float huntSpeed = 3f;
 
+    [SerializeField]
+    TriggerCondition triggerCondition;
+
+    [SerializeField]
+    string previousScenario;
+
+    [SerializeField]
+    bool doNotTeleport;
+
     private void Start()
     {
         monster = FindObjectOfType<Monster>();
     }
 
+    bool requirementsSatisfied
+    {
+        get
+        {
+            if (triggerCondition == TriggerCondition.ALWAYS) return true;
+            if (triggerCondition == TriggerCondition.REQUIRES_PREVIOUS)
+            {
+                if (CurrentScenario == previousScenario) return true;
+                return string.IsNullOrEmpty(CurrentScenario) == string.IsNullOrEmpty(previousScenario);
+            } else
+            {
+                // TriggerCondition.ALWAYS_UNLESS_PREVIOUS
+                if (CurrentScenario == previousScenario) return false;
+                return string.IsNullOrEmpty(CurrentScenario) != string.IsNullOrEmpty(previousScenario);
+
+            }
+
+        }
+    }
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Player" && CurrentScenario != name)
+        if (other.tag == "Player" && CurrentScenario != name && requirementsSatisfied)
         {
-            monster.TeleportTo(monsterSpawn);
+            Debug.Log(string.Format("Playing Scenario {0}", name)); 
+
+            if (!doNotTeleport) monster.TeleportTo(monsterSpawn);
 
             if (firstCheckpoint != null)
             {                
