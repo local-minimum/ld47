@@ -108,7 +108,7 @@ public class Monster : MonoBehaviour
     private void Update()
     {
         NavMeshAgent agent = GetComponentInChildren<NavMeshAgent>();
-        if (agent != null)
+        if (agent != null  && agent.enabled)
         {
             if (CanSeePlayer())
             {
@@ -126,5 +126,15 @@ public class Monster : MonoBehaviour
         }
 
         anim.SetFloat("Speed", agent.speed);
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            NavMeshAgent agent = GetComponentInChildren<NavMeshAgent>();
+            agent.enabled = false;
+            player.SetKilled();
+        }
     }
 }

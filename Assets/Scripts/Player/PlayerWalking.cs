@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerWalking : MonoBehaviour
 {
@@ -41,6 +42,12 @@ public class PlayerWalking : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (killed)
+        {
+            turnSpeed = 0f;
+            walkSpeed = 0f;
+            return;
+        }
         walkSpeed = Input.GetAxis("Vertical");
         turnSpeed = Input.GetAxis("Horizontal");
         float xLookFactor = Input.mousePosition.x / Screen.width - 0.5f;
@@ -49,14 +56,16 @@ public class PlayerWalking : MonoBehaviour
         phone.transform.LookAt(lookAt);
     }
 
+    bool killed = false;
+
     IEnumerator<WaitForSeconds> Step()
     {
         float factor = 0.02f;
-        while (true) {
+        while (!killed) {
             if (Mathf.Abs(walkSpeed) > 0.1f) {
                 float duration = 0f;
                 float stepSpeed = Mathf.Abs(walkSpeed);
-                while (duration < stepDuration)
+                while (duration < stepDuration && !killed)
                 {
                     eyeCamera.transform.localPosition = cameraOrigin + transform.up * stepHeight.Evaluate(duration / stepDuration);
                     yield return new WaitForSeconds(factor);
@@ -70,5 +79,26 @@ public class PlayerWalking : MonoBehaviour
             transform.Rotate(transform.up, turnSpeed * factor * 90f / turn90Duration);
             yield return new WaitForSeconds(factor);
         }
+    }
+
+    public void SetKilled()
+    {
+        if (killed) return;
+        killed = true;
+
+        StartCoroutine(Kill());
+    }
+
+    IEnumerator<WaitForSeconds> Kill()
+    {
+        Camera cam = eyes.GetComponent<Camera>();
+        float step = 0.5f;
+        while (cam.fieldOfView > 21)
+        {
+            cam.fieldOfView -= step;
+            step += .1f;
+            yield return new WaitForSeconds(0.02f);
+        }
+        SceneManager.LoadScene("Scenes/Level");
     }
 }
