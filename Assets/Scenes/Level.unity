@@ -130,37 +130,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1818883603035624796, guid: 2186f391ca452b0418b18827e8466922, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.0000000014260879
-      objectReference: {fileID: 0}
-    - target: {fileID: 1818883603035624796, guid: 2186f391ca452b0418b18827e8466922, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1818883603035624796, guid: 2186f391ca452b0418b18827e8466922, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.009638193
-      objectReference: {fileID: 0}
-    - target: {fileID: 7493233287968101734, guid: 2186f391ca452b0418b18827e8466922, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.0000000032596281
-      objectReference: {fileID: 0}
-    - target: {fileID: 7493233287968101734, guid: 2186f391ca452b0418b18827e8466922, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.0000000010477377
-      objectReference: {fileID: 0}
-    - target: {fileID: 7493233287968101734, guid: 2186f391ca452b0418b18827e8466922, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.007319194
-      objectReference: {fileID: 0}
     - target: {fileID: 8567859736519407433, guid: 2186f391ca452b0418b18827e8466922, type: 3}
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 8567859736519407445, guid: 2186f391ca452b0418b18827e8466922, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.1
+      value: 13.06
       objectReference: {fileID: 0}
     - target: {fileID: 8567859736519407445, guid: 2186f391ca452b0418b18827e8466922, type: 3}
       propertyPath: m_LocalPosition.y
@@ -168,7 +144,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8567859736519407445, guid: 2186f391ca452b0418b18827e8466922, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.1
+      value: 2.78
       objectReference: {fileID: 0}
     - target: {fileID: 8567859736519407445, guid: 2186f391ca452b0418b18827e8466922, type: 3}
       propertyPath: m_LocalRotation.x
@@ -470,9 +446,5 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monster
       objectReference: {fileID: 0}
-    - target: {fileID: 8943486717229582675, guid: ba79eb4ddf9a8174785919dd9165ccb1, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 6edf1a8fc27660b49ac1805bce0c0715, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba79eb4ddf9a8174785919dd9165ccb1, type: 3}

@@ -20,6 +20,9 @@ public class MonsterScenarioDoorOpener : MonoBehaviour
     [SerializeField]
     string scenario;
 
+    [SerializeField]
+    bool actuallyCloseDoorInstead;
+
     private void OnTriggerStay(Collider other)
     {
         if (opener == DoorOpener.PLAYER && other.tag != "Player") return;
@@ -33,7 +36,14 @@ public class MonsterScenarioDoorOpener : MonoBehaviour
             for (int i = 0; i < doors.Length; i++)
             {
                 //Debug.Log(string.Format("{0} is opening door {1}", other.tag, doors[i].name));
-                if (!doors[i].isOpen) doors[i].Toggle();
+                if (!actuallyCloseDoorInstead && !doors[i].isOpen)
+                {
+                    doors[i].Toggle();
+                } else if (actuallyCloseDoorInstead && doors[i].isOpen)
+                {
+                    doors[i].Toggle();
+                }
+
             }
         }
         else {

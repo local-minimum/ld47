@@ -19,8 +19,11 @@ public class Monster : MonoBehaviour
     float huntForPlayer = 3f;
     public void TeleportTo(Transform location)
     {
+        NavMeshAgent agent = GetComponentInChildren<NavMeshAgent>();
+        agent.enabled = false;
         transform.position = location.position;
         transform.rotation = location.rotation;
+        agent.enabled = true;
     }
 
     public void Hunt(Transform target)

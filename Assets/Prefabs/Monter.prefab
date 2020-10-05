@@ -43,7 +43,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.754717, g: 0.23224853, b: 0.09611962, a: 1}
-  m_Intensity: 0.7
+  m_Intensity: 0.85
   m_Range: 2.073637
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -192,7 +192,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f47f4df13fc17147bc0b8165c855887, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
   rayLayers:
     serializedVersion: 2
     m_Bits: 1
@@ -258,7 +257,7 @@ PrefabInstance:
     - target: {fileID: 5866666021909216657, guid: 4566dcbac62746440bb6a524ba382a31, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 9100000, guid: 6edf1a8fc27660b49ac1805bce0c0715, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4566dcbac62746440bb6a524ba382a31, type: 3}
 --- !u!4 &3097782873740612393 stripped
