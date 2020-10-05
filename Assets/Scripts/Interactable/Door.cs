@@ -17,6 +17,20 @@ public class Door : MonoBehaviour
     [SerializeField, Range(0, 3)]
     float slideDistance = 1f;
 
+    [SerializeField]
+    AudioClip openAcceptSound;
+
+    [SerializeField]
+    AudioClip openRefusedSound;
+
+    [SerializeField]
+    AudioClip doorSlideOpen;
+
+    [SerializeField]
+    AudioClip doorSlideClose;
+
+    AudioSource speakers;
+
     public void Toggle()
     {
         toggleIteraion++;
@@ -26,10 +40,14 @@ public class Door : MonoBehaviour
     IEnumerator<WaitForSeconds> DoToggle(int iteration) {
         if (!locked || isOpen)
         {
+            if (!isOpen) speakers.PlayOneShot(openAcceptSound);
             float duration = isOpen ? 1f : 0f;
             float timeDirection = isOpen ? -1f : 1f;
             GetComponentInChildren<Interactable>().interactable = isOpen;
+            speakers.clip = isOpen ? doorSlideClose : doorSlideOpen;
+            speakers.Play();
             isOpen = !isOpen;
+            
             while (toggleIteraion == iteration && duration >= 0 && duration <= animationDuration)
             {
                 slider.localPosition = Vector3.Lerp(sliderLocalLocked, sliderLocalLocked + Vector3.right * slideDistance, duration / animationDuration);                
@@ -39,14 +57,23 @@ public class Door : MonoBehaviour
             if (toggleIteraion == iteration)
             {
                 duration = Mathf.Clamp01(duration);
-                slider.localPosition = Vector3.Lerp(sliderLocalLocked, sliderLocalLocked + Vector3.right * slideDistance, duration / animationDuration);                
+                slider.localPosition = Vector3.Lerp(sliderLocalLocked, sliderLocalLocked + Vector3.right * slideDistance, duration / animationDuration);
+                speakers.Stop();
             }
+        } else if (locked)
+        {
+            speakers.PlayOneShot(openRefusedSound);
         }
     }
 
 
     private void Start()
     {
+        speakers = GetComponent<AudioSource>();
+        if (speakers == null)
+        {
+            speakers = gameObject.AddComponent<AudioSource>();
+        }
         slider = transform.GetChild(0);
         sliderLocalLocked = slider.transform.localPosition;
         Interactable interactable = GetComponentInChildren<Interactable>();

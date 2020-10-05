@@ -2967,6 +2967,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animationDuration: 1
   slideDistance: 2.5
+  openAcceptSound: {fileID: 8300000, guid: 9c91af163f5987146ab626c2c64691d1, type: 3}
+  openRefusedSound: {fileID: 8300000, guid: f2d2cca5bd86f83419ad3c79531ce9dc, type: 3}
+  doorSlideOpen: {fileID: 8300000, guid: 1ee13e57cb700fb499171fc5fe269ab0, type: 3}
+  doorSlideClose: {fileID: 8300000, guid: 1ee13e57cb700fb499171fc5fe269ab0, type: 3}
 --- !u!114 &1806537484327863953
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2981,6 +2985,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animationDuration: 1
   slideDistance: 2.5
+  openAcceptSound: {fileID: 8300000, guid: 9c91af163f5987146ab626c2c64691d1, type: 3}
+  openRefusedSound: {fileID: 8300000, guid: f2d2cca5bd86f83419ad3c79531ce9dc, type: 3}
+  doorSlideOpen: {fileID: 8300000, guid: 1ee13e57cb700fb499171fc5fe269ab0, type: 3}
+  doorSlideClose: {fileID: 8300000, guid: 1ee13e57cb700fb499171fc5fe269ab0, type: 3}
 --- !u!114 &1806537484941902243
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3009,6 +3017,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animationDuration: 1
   slideDistance: 2.5
+  openAcceptSound: {fileID: 8300000, guid: 9c91af163f5987146ab626c2c64691d1, type: 3}
+  openRefusedSound: {fileID: 8300000, guid: f2d2cca5bd86f83419ad3c79531ce9dc, type: 3}
+  doorSlideOpen: {fileID: 8300000, guid: 1ee13e57cb700fb499171fc5fe269ab0, type: 3}
+  doorSlideClose: {fileID: 8300000, guid: 1ee13e57cb700fb499171fc5fe269ab0, type: 3}
 --- !u!208 &1667388980
 NavMeshObstacle:
   m_ObjectHideFlags: 0
@@ -6270,6 +6282,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animationDuration: 1
   slideDistance: 2.5
+  openAcceptSound: {fileID: 8300000, guid: 9c91af163f5987146ab626c2c64691d1, type: 3}
+  openRefusedSound: {fileID: 8300000, guid: f2d2cca5bd86f83419ad3c79531ce9dc, type: 3}
+  doorSlideOpen: {fileID: 8300000, guid: 1ee13e57cb700fb499171fc5fe269ab0, type: 3}
+  doorSlideClose: {fileID: 8300000, guid: 1ee13e57cb700fb499171fc5fe269ab0, type: 3}
 --- !u!114 &1806537483543393270
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6406,6 +6422,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animationDuration: 1
   slideDistance: 2.5
+  openAcceptSound: {fileID: 8300000, guid: 9c91af163f5987146ab626c2c64691d1, type: 3}
+  openRefusedSound: {fileID: 8300000, guid: f2d2cca5bd86f83419ad3c79531ce9dc, type: 3}
+  doorSlideOpen: {fileID: 8300000, guid: 1ee13e57cb700fb499171fc5fe269ab0, type: 3}
+  doorSlideClose: {fileID: 8300000, guid: 1ee13e57cb700fb499171fc5fe269ab0, type: 3}
 --- !u!114 &1806537484465838030
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6420,6 +6440,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animationDuration: 1
   slideDistance: 2.5
+  openAcceptSound: {fileID: 8300000, guid: 9c91af163f5987146ab626c2c64691d1, type: 3}
+  openRefusedSound: {fileID: 8300000, guid: f2d2cca5bd86f83419ad3c79531ce9dc, type: 3}
+  doorSlideOpen: {fileID: 8300000, guid: 1ee13e57cb700fb499171fc5fe269ab0, type: 3}
+  doorSlideClose: {fileID: 8300000, guid: 1ee13e57cb700fb499171fc5fe269ab0, type: 3}
 --- !u!114 &1806537483619237320
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6434,6 +6458,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animationDuration: 1
   slideDistance: 2.5
+  openAcceptSound: {fileID: 8300000, guid: 9c91af163f5987146ab626c2c64691d1, type: 3}
+  openRefusedSound: {fileID: 8300000, guid: f2d2cca5bd86f83419ad3c79531ce9dc, type: 3}
+  doorSlideOpen: {fileID: 8300000, guid: 1ee13e57cb700fb499171fc5fe269ab0, type: 3}
+  doorSlideClose: {fileID: 8300000, guid: 1ee13e57cb700fb499171fc5fe269ab0, type: 3}
 --- !u!208 &391200805
 NavMeshObstacle:
   m_ObjectHideFlags: 0
@@ -6492,6 +6520,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animationDuration: 1
   slideDistance: 2.5
+  openAcceptSound: {fileID: 8300000, guid: 9c91af163f5987146ab626c2c64691d1, type: 3}
+  openRefusedSound: {fileID: 8300000, guid: f2d2cca5bd86f83419ad3c79531ce9dc, type: 3}
+  doorSlideOpen: {fileID: 8300000, guid: 1ee13e57cb700fb499171fc5fe269ab0, type: 3}
+  doorSlideClose: {fileID: 8300000, guid: 1ee13e57cb700fb499171fc5fe269ab0, type: 3}
 --- !u!114 &1806537483488009368
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6506,6 +6538,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animationDuration: 1
   slideDistance: 2.5
+  openAcceptSound: {fileID: 8300000, guid: 9c91af163f5987146ab626c2c64691d1, type: 3}
+  openRefusedSound: {fileID: 8300000, guid: f2d2cca5bd86f83419ad3c79531ce9dc, type: 3}
+  doorSlideOpen: {fileID: 8300000, guid: 1ee13e57cb700fb499171fc5fe269ab0, type: 3}
+  doorSlideClose: {fileID: 8300000, guid: 1ee13e57cb700fb499171fc5fe269ab0, type: 3}
 --- !u!114 &1806537484734808956
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6520,6 +6556,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animationDuration: 1
   slideDistance: 2.5
+  openAcceptSound: {fileID: 8300000, guid: 9c91af163f5987146ab626c2c64691d1, type: 3}
+  openRefusedSound: {fileID: 8300000, guid: f2d2cca5bd86f83419ad3c79531ce9dc, type: 3}
+  doorSlideOpen: {fileID: 8300000, guid: 1ee13e57cb700fb499171fc5fe269ab0, type: 3}
+  doorSlideClose: {fileID: 8300000, guid: 1ee13e57cb700fb499171fc5fe269ab0, type: 3}
 --- !u!114 &1806537483399486387
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6594,6 +6634,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animationDuration: 1
   slideDistance: 2.5
+  openAcceptSound: {fileID: 8300000, guid: 9c91af163f5987146ab626c2c64691d1, type: 3}
+  openRefusedSound: {fileID: 8300000, guid: f2d2cca5bd86f83419ad3c79531ce9dc, type: 3}
+  doorSlideOpen: {fileID: 8300000, guid: 1ee13e57cb700fb499171fc5fe269ab0, type: 3}
+  doorSlideClose: {fileID: 8300000, guid: 1ee13e57cb700fb499171fc5fe269ab0, type: 3}
 --- !u!114 &1806537483663869211
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6622,6 +6666,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animationDuration: 1
   slideDistance: 2.5
+  openAcceptSound: {fileID: 8300000, guid: 9c91af163f5987146ab626c2c64691d1, type: 3}
+  openRefusedSound: {fileID: 8300000, guid: f2d2cca5bd86f83419ad3c79531ce9dc, type: 3}
+  doorSlideOpen: {fileID: 8300000, guid: 1ee13e57cb700fb499171fc5fe269ab0, type: 3}
+  doorSlideClose: {fileID: 8300000, guid: 1ee13e57cb700fb499171fc5fe269ab0, type: 3}
 --- !u!114 &1806537484331622058
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6636,6 +6684,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animationDuration: 1
   slideDistance: 2.5
+  openAcceptSound: {fileID: 8300000, guid: 9c91af163f5987146ab626c2c64691d1, type: 3}
+  openRefusedSound: {fileID: 8300000, guid: f2d2cca5bd86f83419ad3c79531ce9dc, type: 3}
+  doorSlideOpen: {fileID: 8300000, guid: 1ee13e57cb700fb499171fc5fe269ab0, type: 3}
+  doorSlideClose: {fileID: 8300000, guid: 1ee13e57cb700fb499171fc5fe269ab0, type: 3}
 --- !u!114 &1806537483452466431
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6650,6 +6702,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animationDuration: 1
   slideDistance: 2.5
+  openAcceptSound: {fileID: 8300000, guid: 9c91af163f5987146ab626c2c64691d1, type: 3}
+  openRefusedSound: {fileID: 8300000, guid: f2d2cca5bd86f83419ad3c79531ce9dc, type: 3}
+  doorSlideOpen: {fileID: 8300000, guid: 1ee13e57cb700fb499171fc5fe269ab0, type: 3}
+  doorSlideClose: {fileID: 8300000, guid: 1ee13e57cb700fb499171fc5fe269ab0, type: 3}
 --- !u!114 &1806537484858492835
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6664,6 +6720,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animationDuration: 1
   slideDistance: 2.5
+  openAcceptSound: {fileID: 8300000, guid: 9c91af163f5987146ab626c2c64691d1, type: 3}
+  openRefusedSound: {fileID: 8300000, guid: f2d2cca5bd86f83419ad3c79531ce9dc, type: 3}
+  doorSlideOpen: {fileID: 8300000, guid: 1ee13e57cb700fb499171fc5fe269ab0, type: 3}
+  doorSlideClose: {fileID: 8300000, guid: 1ee13e57cb700fb499171fc5fe269ab0, type: 3}
 --- !u!208 &557325915
 NavMeshObstacle:
   m_ObjectHideFlags: 0
