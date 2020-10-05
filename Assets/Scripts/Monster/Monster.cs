@@ -25,7 +25,13 @@ public class Monster : MonoBehaviour
 
     public void Hunt(Transform target)
     {
+        Debug.Log(string.Format("Monster hunts {0}", target.name));
         this.target = target;
+    }
+
+    public bool IsTargeting(Transform target)
+    {
+        return this.target == target;
     }
 
     float lastSeen = 0f;

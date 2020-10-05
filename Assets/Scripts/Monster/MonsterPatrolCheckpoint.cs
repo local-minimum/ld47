@@ -11,12 +11,13 @@ public class MonsterPatrolCheckpoint : MonoBehaviour
     {
         if (other.tag == "Monster")
         {
-            Monster monster = other.GetComponentInChildren<Monster>();            
-            if (monster != null)
+            Monster monster = other.GetComponentInChildren<Monster>();
+            if (monster != null && monster.IsTargeting(transform))
             {                
+                Debug.Log(string.Format("Monster reached {0}", name));
                 if (nextCheckpoint != null)
                 {
-                    monster.Hunt(nextCheckpoint.transform);
+                    monster.Hunt(nextCheckpoint.transform);                    
                 }
             }
         }
