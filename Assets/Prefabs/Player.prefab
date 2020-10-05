@@ -534,7 +534,7 @@ MonoBehaviour:
   appContents: {fileID: 1672133537821885006}
   fromText: {fileID: 282430953297958183}
   bodyText: {fileID: 4466433187330407868}
-  focusFOV: 30
+  focusFOV: 35
   fovTransition:
     serializedVersion: 2
     m_Curve:
@@ -1286,11 +1286,11 @@ MonoBehaviour:
   verticalPosLook: 0.5
   verticalNegLook: 0.5
   stepSounds:
-  - {fileID: 8300000, guid: 590f6c37ac5e87a4b91d07fa13980841, type: 3}
-  - {fileID: 8300000, guid: df183a0eaeb12bc45a373733a4263bc9, type: 3}
-  - {fileID: 8300000, guid: 14886d3acc4f164408d2413072e92a6c, type: 3}
-  - {fileID: 8300000, guid: f189a8d8e2cbd7e43a5421f0b9cd2afa, type: 3}
-  scream: {fileID: 8300000, guid: 66aab2382f25f7147b679cd2d6c6a539, type: 3}
+  - {fileID: 8300000, guid: 31273e79e48b37f439fe21119e611b49, type: 3}
+  - {fileID: 8300000, guid: ec8f3db3a622bfb458421ec465ee7a4e, type: 3}
+  - {fileID: 8300000, guid: 5daff7dadc6816746ac22587fa75ad3e, type: 3}
+  - {fileID: 8300000, guid: b38799332a9e3af43be338ebf305d5e3, type: 3}
+  scream: {fileID: 8300000, guid: fd6ba928e3bf5e442802e1a627b897ff, type: 3}
 --- !u!82 &49845018
 AudioSource:
   m_ObjectHideFlags: 0

@@ -200,7 +200,9 @@ MonoBehaviour:
   viewAngle: 45
   angleStep: 5
   sightDistance: 10
-  capture: {fileID: 8300000, guid: 3373679d87146a24d8735c6ea26a14f8, type: 3}
+  captures:
+  - {fileID: 8300000, guid: e137952d4e594b24995c853b740d1254, type: 3}
+  - {fileID: 8300000, guid: 5459e6ee2f2c1924aab83583055439c8, type: 3}
 --- !u!82 &1296709582
 AudioSource:
   m_ObjectHideFlags: 0
@@ -211,7 +213,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: f93f88b17526db0448907895c9f8740a, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 45f73fa5a368dff4fb7007694352083e, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1

@@ -64,11 +64,26 @@ public class Monster : MonoBehaviour
                 if (hit.collider.tag == "Player")
                 {
                     lastSeen = Time.timeSinceLevelLoad;
+                    PlaySpeak();
                     return true;
                 }
             }
         }
         return Time.timeSinceLevelLoad - lastSeen < huntForPlayer;
+    }
+
+    float lastSpeak = 0f;
+    float speakThreshold = 5f;
+
+    void PlaySpeak()
+    {
+
+        if (captures.Length > 0 && Time.timeSinceLevelLoad - lastSpeak > speakThreshold)
+        {
+            AudioClip capture = captures[Random.Range(0, captures.Length)];
+            speakers.PlayOneShot(capture);
+            lastSpeak = Time.timeSinceLevelLoad;
+        }
     }
 
     private void OnDrawGizmosSelected()
@@ -132,7 +147,7 @@ public class Monster : MonoBehaviour
     }
 
     [SerializeField]
-    AudioClip capture;
+    AudioClip[] captures;
 
     private void OnCollisionEnter(Collision collision)
     {
@@ -140,8 +155,6 @@ public class Monster : MonoBehaviour
         {
             NavMeshAgent agent = GetComponentInChildren<NavMeshAgent>();
             agent.enabled = false;
-            
-            speakers.PlayOneShot(capture);
             player.SetKilled();
         }
     }
