@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3fd46ddf8bd99904db9dab6f65d1777c
+guid: 7afdf8a3e2df5f44cbb49bb8bdcf8d96
 ModelImporter:
   serializedVersion: 20101
   internalIDToNameTable: []
@@ -8,17 +8,22 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: MatChairLEgs
+    second: {fileID: 2100000, guid: a759e6c3dbebc0b478e16c4dcd22c6cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MatDeskLegs
     second: {fileID: 2100000, guid: ca9b2039a3e0d7f4b849eecb36d58aef, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: MatChairWood
+      name: MatDeskTop
     second: {fileID: 2100000, guid: 75a4c4b119122454d8ae316a09932241, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material.001
-    second: {fileID: 2100000, guid: f140ab972ae884d49a2e996f2e303cb8, type: 2}
+      name: MatPlasticBlackRough
+    second: {fileID: 2100000, guid: 4ffc751965e2c594b9fe64d03b6893f1, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
