@@ -76,6 +76,8 @@ public class PlayerWalking : MonoBehaviour
     }
 
     bool killed = false;
+    [SerializeField, Range(0, 1)]
+    float stepVolume = 0.7f;
 
     IEnumerator<WaitForSeconds> Step()
     {
@@ -97,7 +99,7 @@ public class PlayerWalking : MonoBehaviour
                     transform.Rotate(transform.up, turnSpeed * factor * 90f / turn90Duration);
                     if (progress > 0.9f && !playedSound && walkSpeed > 0f)
                     {
-                        speakers.PlayOneShot(stepSounds[stepSoundIdx]);
+                        speakers.PlayOneShot(stepSounds[stepSoundIdx], stepVolume);
                         playedSound = true;
                     }
                 }

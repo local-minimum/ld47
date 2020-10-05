@@ -1290,6 +1290,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: ec8f3db3a622bfb458421ec465ee7a4e, type: 3}
   - {fileID: 8300000, guid: 5daff7dadc6816746ac22587fa75ad3e, type: 3}
   - {fileID: 8300000, guid: b38799332a9e3af43be338ebf305d5e3, type: 3}
+  stepVolume: 0.25
   scream: {fileID: 8300000, guid: fd6ba928e3bf5e442802e1a627b897ff, type: 3}
 --- !u!82 &49845018
 AudioSource:
