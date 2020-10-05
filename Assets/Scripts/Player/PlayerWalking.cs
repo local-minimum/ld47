@@ -46,6 +46,10 @@ public class PlayerWalking : MonoBehaviour
     [SerializeField, Range(0, 2f)]
     float verticalNegLook = 0.5f;
 
+    [SerializeField]
+    AudioClip[] stepSounds;
+    int stepSoundIdx = 0;
+
     // Update is called once per frame
     void Update()
     {
@@ -73,20 +77,34 @@ public class PlayerWalking : MonoBehaviour
 
     IEnumerator<WaitForSeconds> Step()
     {
+        AudioSource speakers = GetComponent<AudioSource>();
         float factor = 0.02f;
         while (!killed) {
             if (Mathf.Abs(walkSpeed) > 0.1f) {
                 float duration = 0f;
                 float stepSpeed = Mathf.Abs(walkSpeed);
+                bool playedSound = false;
                 while (duration < stepDuration && !killed)
                 {
-                    eyeCamera.transform.localPosition = cameraOrigin + transform.up * stepHeight.Evaluate(duration / stepDuration);
+                    float progress = duration / stepDuration;
+                    eyeCamera.transform.localPosition = cameraOrigin + transform.up * stepHeight.Evaluate(progress);
                     yield return new WaitForSeconds(factor);
                     stepSpeed = Mathf.Max(stepSpeed, Mathf.Abs(walkSpeed));
                     duration += stepSpeed * factor;
                     transform.position += transform.forward * walkSpeed * stepLength * factor;
                     transform.Rotate(transform.up, turnSpeed * factor * 90f / turn90Duration);
+                    if (progress > 0.9f && !playedSound && walkSpeed > 0f)
+                    {
+                        speakers.PlayOneShot(stepSounds[stepSoundIdx]);
+                        playedSound = true;
+                    }
                 }
+                stepSoundIdx += 1;
+                if (stepSoundIdx >= stepSounds.Length)
+                {
+                    stepSoundIdx = 0;
+                }
+                
                 eyeCamera.transform.localPosition = cameraOrigin + transform.up * stepHeight.Evaluate(1f);
             }
             transform.Rotate(transform.up, turnSpeed * factor * 90f / turn90Duration);
