@@ -365,14 +365,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 986782459, guid: 02f31e324d5b6074fa567a9e76256eaf, type: 3}
-      propertyPath: triggerCondition
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 986782459, guid: 02f31e324d5b6074fa567a9e76256eaf, type: 3}
-      propertyPath: previousScenarios.Array.data[0]
-      value: 'Monster Scenario: First Encounter'
-      objectReference: {fileID: 0}
     - target: {fileID: 1806537484157791253, guid: 02f31e324d5b6074fa567a9e76256eaf, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

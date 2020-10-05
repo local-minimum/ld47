@@ -46,12 +46,12 @@ public class MonsterScenario : MonoBehaviour
         get
         {
             if (triggerCondition == TriggerCondition.ALWAYS) return true;
-            if (triggerCondition == TriggerCondition.REQUIRES_PREVIOUS)
+            else if (triggerCondition == TriggerCondition.REQUIRES_PREVIOUS)
             {
                 for (int i = 0; i < previousScenarios.Length; i++)
                 {
                     string previousScenario = previousScenarios[i];
-                    if (CurrentScenario == previousScenario || string.IsNullOrEmpty(CurrentScenario) == string.IsNullOrEmpty(previousScenario)) return true;                    
+                    if (CurrentScenario == previousScenario || (string.IsNullOrEmpty(CurrentScenario) && string.IsNullOrEmpty(previousScenario))) return true;                    
                 }
                 return false;
             } else
@@ -60,7 +60,11 @@ public class MonsterScenario : MonoBehaviour
                 for (int i = 0; i < previousScenarios.Length; i++)
                 {
                     string previousScenario = previousScenarios[i];
-                    if (CurrentScenario == previousScenario || string.IsNullOrEmpty(CurrentScenario) == string.IsNullOrEmpty(previousScenario)) return false;
+                    if (CurrentScenario == previousScenario || (string.IsNullOrEmpty(CurrentScenario) && string.IsNullOrEmpty(previousScenario)))
+                    {
+                        Debug.Log(string.Format("{0} == {1} / Condition not true", CurrentScenario, previousScenario));
+                        return false;
+                    }
                 }
                 return true;
             }
