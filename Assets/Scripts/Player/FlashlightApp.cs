@@ -39,7 +39,7 @@ public class FlashlightApp : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(actionKey))
+        if (Input.GetKeyDown(actionKey) || Input.GetKeyDown(KeyCode.Joystick1Button2))
         {
             if (!transitioning) StartCoroutine(Transition());
         }
