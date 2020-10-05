@@ -624,7 +624,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Let me help you start over
+  m_text: Let me help you start over Let me help you start over Let me help you start
+    over
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -687,7 +688,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 1.4412842, y: 7.8295956, z: 1.407198, w: 7.852293}
+  m_margin: {x: 1.4412842, y: 6.132818, z: 1.407198, w: 7.852293}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1825,15 +1826,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -6955414164365341537, guid: 9b164e125dc14b94eb5364010316294f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.8953e-10
+      value: 0.0000000015133989
       objectReference: {fileID: 0}
     - target: {fileID: -6955414164365341537, guid: 9b164e125dc14b94eb5364010316294f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.007319194
+      value: 0.0073191957
       objectReference: {fileID: 0}
     - target: {fileID: -6955414164365341537, guid: 9b164e125dc14b94eb5364010316294f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.0000000032596281
+      value: -0.0000000037252894
       objectReference: {fileID: 0}
     - target: {fileID: -5046323202039622622, guid: 9b164e125dc14b94eb5364010316294f, type: 3}
       propertyPath: m_Layer
@@ -1965,15 +1966,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7041889643587472549, guid: 9b164e125dc14b94eb5364010316294f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.0000000011932572
+      value: 0.0000000028521758
       objectReference: {fileID: 0}
     - target: {fileID: 7041889643587472549, guid: 9b164e125dc14b94eb5364010316294f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.1641545e-10
+      value: 0.0000000011641544
       objectReference: {fileID: 0}
     - target: {fileID: 7041889643587472549, guid: 9b164e125dc14b94eb5364010316294f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.009638193
+      value: 0.009638191
       objectReference: {fileID: 0}
     - target: {fileID: 7266154239931576762, guid: 9b164e125dc14b94eb5364010316294f, type: 3}
       propertyPath: m_Layer
