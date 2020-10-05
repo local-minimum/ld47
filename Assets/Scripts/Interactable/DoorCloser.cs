@@ -7,18 +7,34 @@ public class DoorCloser : MonoBehaviour
     [SerializeField]
     Door[] doors;
 
+    [SerializeField]
+    bool closeOnEnter;
+
+    void CloseDoors()
+    {
+        for (int i = 0; i < doors.Length; i++)
+        {
+            Door door = doors[i];
+            if (door.isOpen)
+            {
+                door.Toggle();
+            }
+        }
+    }
+
     private void OnTriggerStay(Collider other)
     {
-        if (other.tag == "Player")
+        if (!closeOnEnter && other.tag == "Player")
         {
-            for (int i = 0; i < doors.Length; i++)
-            {
-                Door door = doors[i];
-                if (door.isOpen)
-                {
-                    door.Toggle();
-                }
-            }
+            CloseDoors();
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if  (closeOnEnter && other.tag == "Player")
+        {
+            CloseDoors();
         }
     }
 }
