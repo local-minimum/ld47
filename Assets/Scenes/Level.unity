@@ -180,17 +180,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2186f391ca452b0418b18827e8466922, type: 3}
---- !u!114 &114527687 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 9031007549441235788, guid: ba79eb4ddf9a8174785919dd9165ccb1, type: 3}
-  m_PrefabInstance: {fileID: 3276140447954263050}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f47f4df13fc17147bc0b8165c855887, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &235175928
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -248,11 +237,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e3b0b5821f34e84aa13ea538fbb0876, type: 3}
---- !u!4 &587183558 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8567859736519407445, guid: 2186f391ca452b0418b18827e8466922, type: 3}
-  m_PrefabInstance: {fileID: 27611978}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &665897084
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -357,10 +341,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1806537483977176664, guid: 02f31e324d5b6074fa567a9e76256eaf, type: 3}
-      propertyPath: monster
-      value: 
-      objectReference: {fileID: 114527687}
     - target: {fileID: 1806537484157791253, guid: 02f31e324d5b6074fa567a9e76256eaf, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -466,9 +446,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monster
       objectReference: {fileID: 0}
-    - target: {fileID: 9031007549441235788, guid: ba79eb4ddf9a8174785919dd9165ccb1, type: 3}
-      propertyPath: player
+    - target: {fileID: 8943486717229582675, guid: ba79eb4ddf9a8174785919dd9165ccb1, type: 3}
+      propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 587183558}
+      objectReference: {fileID: 9100000, guid: 6edf1a8fc27660b49ac1805bce0c0715, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba79eb4ddf9a8174785919dd9165ccb1, type: 3}
