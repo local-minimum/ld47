@@ -31,7 +31,7 @@ public class MonsterScenario : MonoBehaviour
     TriggerCondition triggerCondition;
 
     [SerializeField]
-    string previousScenario;
+    string[] previousScenarios;
 
     [SerializeField]
     bool doNotTeleport;
@@ -48,14 +48,21 @@ public class MonsterScenario : MonoBehaviour
             if (triggerCondition == TriggerCondition.ALWAYS) return true;
             if (triggerCondition == TriggerCondition.REQUIRES_PREVIOUS)
             {
-                if (CurrentScenario == previousScenario) return true;
-                return string.IsNullOrEmpty(CurrentScenario) == string.IsNullOrEmpty(previousScenario);
+                for (int i = 0; i < previousScenarios.Length; i++)
+                {
+                    string previousScenario = previousScenarios[i];
+                    if (CurrentScenario == previousScenario || string.IsNullOrEmpty(CurrentScenario) == string.IsNullOrEmpty(previousScenario)) return true;                    
+                }
+                return false;
             } else
             {
                 // TriggerCondition.ALWAYS_UNLESS_PREVIOUS
-                if (CurrentScenario == previousScenario) return false;
-                return string.IsNullOrEmpty(CurrentScenario) != string.IsNullOrEmpty(previousScenario);
-
+                for (int i = 0; i < previousScenarios.Length; i++)
+                {
+                    string previousScenario = previousScenarios[i];
+                    if (CurrentScenario == previousScenario || string.IsNullOrEmpty(CurrentScenario) == string.IsNullOrEmpty(previousScenario)) return false;
+                }
+                return true;
             }
 
         }

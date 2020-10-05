@@ -82,6 +82,11 @@ public class Monster : MonoBehaviour
                 Gizmos.DrawLine(r.origin, r.GetPoint(sightDistance));
             }
         }
+        if (target != null)
+        {
+            Gizmos.color = Color.cyan;
+            Gizmos.DrawLine(transform.position, target.transform.position);
+        }
         Gizmos.color = gColor;
     }
 
