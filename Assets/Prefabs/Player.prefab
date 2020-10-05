@@ -647,6 +647,8 @@ MonoBehaviour:
   phone: {fileID: 2376695164750278154}
   lateralLook: 2
   lookDistance: 5
+  verticalPosLook: 0.5
+  verticalNegLook: 0.5
 --- !u!1 &8567859737503507336
 GameObject:
   m_ObjectHideFlags: 0

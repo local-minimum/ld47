@@ -31,6 +31,7 @@ public class PlayerWalking : MonoBehaviour
         cameraOrigin = eyeCamera.transform.localPosition;
         eyes = GetComponentInChildren<Eyes>();
         StartCoroutine(Step());
+        Cursor.visible = false;
     }
 
     [SerializeField, Range(0, 10f)]
@@ -38,6 +39,12 @@ public class PlayerWalking : MonoBehaviour
 
     [SerializeField, Range(0, 10f)]
     float lookDistance = 5f;
+
+    [SerializeField, Range(0, 2f)]
+    float verticalPosLook = 0.5f;
+
+    [SerializeField, Range(0, 2f)]
+    float verticalNegLook = 0.5f;
 
     // Update is called once per frame
     void Update()
@@ -51,7 +58,13 @@ public class PlayerWalking : MonoBehaviour
         walkSpeed = Input.GetAxis("Vertical");
         turnSpeed = Input.GetAxis("Horizontal");
         float xLookFactor = Input.mousePosition.x / Screen.width - 0.5f;
-        Vector3 lookAt = transform.position + transform.forward * lookDistance + xLookFactor * lateralLook * transform.right;
+        float yLookFactor = Input.mousePosition.y / Screen.height - 0.5f;
+        Vector3 lookAt = transform.position
+            + transform.forward * lookDistance
+            + xLookFactor * lateralLook * transform.right
+            + (yLookFactor > 0 ? yLookFactor * verticalPosLook * transform.up : Vector3.zero)
+            + (yLookFactor < 0 ? yLookFactor * verticalNegLook * transform.up : Vector3.zero)
+            ;
         eyes.LookAt(lookAt);
         phone.transform.LookAt(lookAt);
     }
