@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PlayerWalking : MonoBehaviour
 {
@@ -120,14 +121,26 @@ public class PlayerWalking : MonoBehaviour
         StartCoroutine(Kill());
     }
 
+    [SerializeField]
+    AudioClip scream;
+
     IEnumerator<WaitForSeconds> Kill()
     {
+        AudioSource speakers = GetComponent<AudioSource>();
+        GameObject killScreen = GameObject.FindGameObjectWithTag("KillScreen");
+        Image killImage = killScreen.GetComponentInChildren<Image>();
+        Color color = Color.black;
+        color.a = 0f;
         Camera cam = eyes.GetComponent<Camera>();
         float step = 0.5f;
+        speakers.PlayOneShot(scream);
+
         while (cam.fieldOfView > 21)
         {
             cam.fieldOfView -= step;
             step += .1f;
+            color.a = step;
+            killImage.color = color;
             yield return new WaitForSeconds(0.02f);
         }
         SceneManager.LoadScene("Scenes/Level");

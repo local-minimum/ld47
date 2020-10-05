@@ -99,10 +99,13 @@ public class Monster : MonoBehaviour
         Gizmos.color = gColor;
     }
 
+    AudioSource speakers;
+
     private void Start()
     {
         anim = GetComponentInChildren<Animator>();
         player = FindObjectOfType<PlayerWalking>();
+        speakers = GetComponentInChildren<AudioSource>();
     }
 
     private void Update()
@@ -128,12 +131,17 @@ public class Monster : MonoBehaviour
         anim.SetFloat("Speed", agent.speed);
     }
 
+    [SerializeField]
+    AudioClip capture;
+
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "Player")
         {
             NavMeshAgent agent = GetComponentInChildren<NavMeshAgent>();
             agent.enabled = false;
+            
+            speakers.PlayOneShot(capture);
             player.SetKilled();
         }
     }
