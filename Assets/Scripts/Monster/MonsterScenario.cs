@@ -13,6 +13,11 @@ public class MonsterScenario : MonoBehaviour
 {
     public static string CurrentScenario { get; private set; }
 
+    public static void ClearCurrentScenario()
+    {
+        CurrentScenario = null;
+    }
+
     Monster monster;
 
     [SerializeField]

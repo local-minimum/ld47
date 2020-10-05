@@ -655,6 +655,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: df183a0eaeb12bc45a373733a4263bc9, type: 3}
   - {fileID: 8300000, guid: 14886d3acc4f164408d2413072e92a6c, type: 3}
   - {fileID: 8300000, guid: f189a8d8e2cbd7e43a5421f0b9cd2afa, type: 3}
+  scream: {fileID: 8300000, guid: 66aab2382f25f7147b679cd2d6c6a539, type: 3}
 --- !u!82 &49845018
 AudioSource:
   m_ObjectHideFlags: 0

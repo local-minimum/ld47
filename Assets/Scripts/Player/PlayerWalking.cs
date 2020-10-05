@@ -29,6 +29,7 @@ public class PlayerWalking : MonoBehaviour
 
     void Start()
     {
+        MonsterScenario.ClearCurrentScenario();
         cameraOrigin = eyeCamera.transform.localPosition;
         eyes = GetComponentInChildren<Eyes>();
         StartCoroutine(Step());
