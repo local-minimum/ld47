@@ -87,7 +87,7 @@ public class Door : MonoBehaviour
     private void Update()
     {
         UIInteractable uIInteractable = GetComponentInChildren<UIInteractable>();
-        if (uIInteractable && uIInteractable.showingKey && Input.GetKeyDown(KeyCode.C)) 
+        if (uIInteractable && uIInteractable.showingKey && Input.GetKeyDown(KeyCode.E)) 
         {
             Toggle();
         }
