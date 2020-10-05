@@ -641,10 +641,12 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   stepLength: 1.5
-  stepDuration: 1.5
+  stepDuration: 1.2
   eyeCamera: {fileID: 8567859737503507338}
   turn90Duration: 1.25
   phone: {fileID: 2376695164750278154}
+  lateralLook: 2
+  lookDistance: 5
 --- !u!1 &8567859737503507336
 GameObject:
   m_ObjectHideFlags: 0
@@ -1084,15 +1086,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -6955414164365341537, guid: 9b164e125dc14b94eb5364010316294f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.3132235e-10
+      value: -0.0000000010477377
       objectReference: {fileID: 0}
     - target: {fileID: -6955414164365341537, guid: 9b164e125dc14b94eb5364010316294f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.0073191943
+      value: 0.007319194
       objectReference: {fileID: 0}
     - target: {fileID: -6955414164365341537, guid: 9b164e125dc14b94eb5364010316294f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.0000000041909507
+      value: -0.0000000032596281
       objectReference: {fileID: 0}
     - target: {fileID: -5046323202039622622, guid: 9b164e125dc14b94eb5364010316294f, type: 3}
       propertyPath: m_Layer
@@ -1224,15 +1226,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7041889643587472549, guid: 9b164e125dc14b94eb5364010316294f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.000000002997695
+      value: 0.0000000014260879
       objectReference: {fileID: 0}
     - target: {fileID: 7041889643587472549, guid: 9b164e125dc14b94eb5364010316294f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.4924635e-10
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7041889643587472549, guid: 9b164e125dc14b94eb5364010316294f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.009638194
+      value: 0.009638193
       objectReference: {fileID: 0}
     - target: {fileID: 7266154239931576762, guid: 9b164e125dc14b94eb5364010316294f, type: 3}
       propertyPath: m_Layer
