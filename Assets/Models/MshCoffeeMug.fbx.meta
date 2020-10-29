@@ -8,7 +8,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: MatPorcelain
-    second: {fileID: 2100000, guid: fba1ae3b1af2c7046bbf18ec797e4193, type: 2}
+    second: {fileID: 2100000, guid: 3627b3d97dd47734994c384f697fc061, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
