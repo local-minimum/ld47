@@ -387,6 +387,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &935483408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 935483405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a63bb5fd05fa6b48b9c5e06d49a80e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1011941554 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2376695164750278154, guid: 2186f391ca452b0418b18827e8466922, type: 3}
@@ -619,11 +631,47 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7afdf8a3e2df5f44cbb49bb8bdcf8d96, type: 3}
+--- !u!4 &1400634993 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5372396969365704225, guid: ba79eb4ddf9a8174785919dd9165ccb1, type: 3}
+  m_PrefabInstance: {fileID: 2085538217}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1534139091 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8567859736519407445, guid: 2186f391ca452b0418b18827e8466922, type: 3}
   m_PrefabInstance: {fileID: 1049473647}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1576424483 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1713754117, guid: ba79eb4ddf9a8174785919dd9165ccb1, type: 3}
+  m_PrefabInstance: {fileID: 2085538217}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1773428102 &1576424486
+ParentConstraint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1576424483}
+  m_Enabled: 1
+  m_Weight: 1
+  m_TranslationAtRest: {x: 0.123000145, y: 1.7789999, z: 0}
+  m_RotationAtRest: {x: 0, y: 0, z: 0}
+  m_TranslationOffsets:
+  - {x: -0.08282089, y: -0.2651856, z: -0.03193283}
+  m_RotationOffsets:
+  - {x: -0.00021154422, y: 180, z: -163.77812}
+  m_AffectTranslationX: 1
+  m_AffectTranslationY: 1
+  m_AffectTranslationZ: 1
+  m_AffectRotationX: 1
+  m_AffectRotationY: 1
+  m_AffectRotationZ: 1
+  m_IsContraintActive: 1
+  m_IsLocked: 1
+  m_Sources:
+  - sourceTransform: {fileID: 1400634993}
+    weight: 1
 --- !u!1001 &1681842877
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -728,6 +776,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1713754119, guid: ba79eb4ddf9a8174785919dd9165ccb1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.00000009362675
+      objectReference: {fileID: 0}
+    - target: {fileID: 1713754119, guid: ba79eb4ddf9a8174785919dd9165ccb1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.1230011
+      objectReference: {fileID: 0}
+    - target: {fileID: 1713754119, guid: ba79eb4ddf9a8174785919dd9165ccb1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.779001
+      objectReference: {fileID: 0}
     - target: {fileID: 3276140447982539202, guid: ba79eb4ddf9a8174785919dd9165ccb1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -15.8
