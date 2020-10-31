@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class PlayerWalking : MonoBehaviour
@@ -27,11 +26,19 @@ public class PlayerWalking : MonoBehaviour
     [SerializeField]
     Transform phone;
 
+    Image killImage;
+    Color killScreenLiveColor;
+    float startFOV;
+
     void Start()
     {
+        GameObject killScreen = GameObject.FindGameObjectWithTag("KillScreen");
+        killImage = killScreen.GetComponentInChildren<Image>();
+        killScreenLiveColor = killImage.color;
         MonsterScenario.ClearCurrentScenario();
         cameraOrigin = eyeCamera.transform.localPosition;
         eyes = GetComponentInChildren<Eyes>();
+        startFOV = eyeCamera.fieldOfView;
         StartCoroutine(Step());
         Cursor.visible = false;
     }
@@ -130,22 +137,28 @@ public class PlayerWalking : MonoBehaviour
     IEnumerator<WaitForSeconds> Kill()
     {
         AudioSource speakers = GetComponent<AudioSource>();
-        GameObject killScreen = GameObject.FindGameObjectWithTag("KillScreen");
-        Image killImage = killScreen.GetComponentInChildren<Image>();
-        Color color = Color.black;
-        color.a = 0f;
-        Camera cam = eyes.GetComponent<Camera>();
-        float step = 0.5f;
         speakers.PlayOneShot(scream);
 
-        while (cam.fieldOfView > 21)
+        Color color = Color.black;
+        color.a = 0f;        
+
+        float step = 0.5f;
+        while (eyeCamera.fieldOfView > 21)
         {
-            cam.fieldOfView -= step;
+            eyeCamera.fieldOfView -= step;
             step += .1f;
             color.a = step;
             killImage.color = color;
             yield return new WaitForSeconds(0.02f);
         }
-        SceneManager.LoadScene("Scenes/Level");
+        LevelResetter.ResetLevel();
+    }
+
+    public void UnKill()
+    {        
+        killed = false;
+        killImage.color = killScreenLiveColor;
+        eyeCamera.fieldOfView = startFOV;
+        StartCoroutine(Step());
     }
 }

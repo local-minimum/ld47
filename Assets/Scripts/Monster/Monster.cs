@@ -28,7 +28,14 @@ public class Monster : MonoBehaviour
 
     public void Hunt(Transform target)
     {
-        Debug.Log(string.Format("Monster hunts {0}", target.name));
+        if (target == null)
+        {
+            Debug.Log("Monster hunts no one");
+        }
+        else
+        {
+            Debug.Log(string.Format("Monster hunts {0}", target.name));
+        }
         this.target = target;
     }
 
@@ -52,7 +59,11 @@ public class Monster : MonoBehaviour
 
 
     bool CanSeePlayer()
-    {        
+    {
+        if (Time.timeSinceLevelLoad - lastSeen < huntForPlayer)
+        {
+            return true;
+        }
         for (float a=-viewAngle; a<=viewAngle; a+=angleStep)
         {
             Quaternion q = Quaternion.AngleAxis(a, transform.up);
@@ -69,7 +80,12 @@ public class Monster : MonoBehaviour
                 }
             }
         }
-        return Time.timeSinceLevelLoad - lastSeen < huntForPlayer;
+        return false;
+    }
+
+    public void ForgetPlayer()
+    {
+        lastSeen = Time.timeSinceLevelLoad - (huntForPlayer + 1);
     }
 
     float lastSpeak = 0f;
