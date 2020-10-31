@@ -31,6 +31,8 @@ public class Door : MonoBehaviour
 
     AudioSource speakers;
 
+    [SerializeField] bool startLocked = false;
+
     public void Toggle()
     {
         toggleIteraion++;
@@ -80,6 +82,9 @@ public class Door : MonoBehaviour
         if (interactable != null)
         {
             interactable.interactable = true;
+        }
+        if (startLocked) {
+            locked = startLocked;
         }
         
     }

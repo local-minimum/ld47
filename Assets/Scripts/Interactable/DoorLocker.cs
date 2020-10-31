@@ -8,6 +8,7 @@ public struct DoorLockConfig
     public Door door;
     public bool locked;
     public bool doClose;
+
 }
 
 public class DoorLocker : MonoBehaviour

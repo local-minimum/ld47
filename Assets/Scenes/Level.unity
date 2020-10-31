@@ -130,6 +130,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 224393107, guid: 2186f391ca452b0418b18827e8466922, type: 3}
+      propertyPath: respawnPosition
+      value: 
+      objectReference: {fileID: 1569388411}
     - target: {fileID: 8567859736519407433, guid: 2186f391ca452b0418b18827e8466922, type: 3}
       propertyPath: m_Name
       value: Player
@@ -180,42 +184,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2186f391ca452b0418b18827e8466922, type: 3}
---- !u!1 &44601105 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3276140447982539212, guid: ba79eb4ddf9a8174785919dd9165ccb1, type: 3}
-  m_PrefabInstance: {fileID: 3276140447954263050}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &44601106
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 44601105}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 71deb306f751def42aa5a88183dcf623, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  monsterSpawn: {fileID: 560484364}
---- !u!1 &224393099 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8567859736519407433, guid: 2186f391ca452b0418b18827e8466922, type: 3}
-  m_PrefabInstance: {fileID: 27611978}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &224393107
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 224393099}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 227d7b1aec33aa742aa9a868bc4f328f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  respawnPosition: {fileID: 1569388411}
 --- !u!1001 &235175928
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -273,53 +241,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e3b0b5821f34e84aa13ea538fbb0876, type: 3}
---- !u!1 &244672086 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6306298650192164780, guid: 02f31e324d5b6074fa567a9e76256eaf, type: 3}
+--- !u!4 &560484364 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 560484364, guid: 02f31e324d5b6074fa567a9e76256eaf, type: 3}
   m_PrefabInstance: {fileID: 1806537483298141075}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &244672092
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 244672086}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f0177028b77c634b9d199f5d2001825, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!1 &560484363
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 560484364}
-  m_Layer: 0
-  m_Name: Monster Initial Spawn
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &560484364
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 560484363}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 41.5, y: 0.019, z: -10.4}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1206043580}
-  m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &665897084
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -417,28 +343,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 840b59ab11222fe4faf9de5ceadab092, type: 3}
---- !u!4 &1206043580 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1806537484157791253, guid: 02f31e324d5b6074fa567a9e76256eaf, type: 3}
-  m_PrefabInstance: {fileID: 1806537483298141075}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1329563666 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3507747788300424394, guid: 02f31e324d5b6074fa567a9e76256eaf, type: 3}
-  m_PrefabInstance: {fileID: 1806537483298141075}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1329563672
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1329563666}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f0177028b77c634b9d199f5d2001825, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1569388411 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1569388411, guid: 02f31e324d5b6074fa567a9e76256eaf, type: 3}
@@ -666,6 +570,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 44601106, guid: ba79eb4ddf9a8174785919dd9165ccb1, type: 3}
+      propertyPath: monsterSpawn
+      value: 
+      objectReference: {fileID: 560484364}
     - target: {fileID: 3276140447982539202, guid: ba79eb4ddf9a8174785919dd9165ccb1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 41.5

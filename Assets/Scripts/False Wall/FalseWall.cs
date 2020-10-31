@@ -9,13 +9,17 @@ public class FalseWall : MonoBehaviour
 
     bool charged = false;
 
-    public void FallDown()
+    public void FallDown(bool playSound=true)
     {
         if (charged)
         {
             GetComponent<MeshRenderer>().enabled = true;
             GetComponent<MeshCollider>().enabled = true;
-            GetComponent<AudioSource>().PlayOneShot(fallSound);
+            if (playSound)
+            {
+                GetComponent<AudioSource>().PlayOneShot(fallSound);
+            }
+            charged = false;
         }
     }
 
