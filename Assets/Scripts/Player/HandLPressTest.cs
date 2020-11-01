@@ -15,5 +15,7 @@ public class HandLPressTest : MonoBehaviour
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Q)) animHandL.SetTrigger("HandLPhoneTrigger");
+        if (Input.GetKeyDown(KeyCode.E)) animHandL.SetBool("HandLCardWave", true);
+        if (Input.GetKeyUp(KeyCode.E)) animHandL.SetBool("HandLCardWave", false);
     }
 }
