@@ -13,12 +13,12 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: MatMetalAluminum
-    second: {fileID: 2100000, guid: a759e6c3dbebc0b478e16c4dcd22c6cc, type: 2}
+    second: {fileID: 2100000, guid: 87c428920bc42e14789e838c1bab934f, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: MatPlasticBlackMedGloss
-    second: {fileID: 2100000, guid: bc7260620d516c443b098951a26e44fc, type: 2}
+    second: {fileID: 2100000, guid: 161f4fc2e73f0c149ab42dba9a4b78c1, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
